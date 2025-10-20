@@ -1,0 +1,23 @@
+library	ieee;
+package IEEE.STD_LOGIC_1164.ALL;
+
+entity FullAdder is
+port( A: in bit;
+		B: in bit;
+		Cin: in bit;
+		S: out bit;
+		Cout: out bit;)
+End FullAdder;
+
+architecture Fnc of FullAdder is
+	signal ( BC1: bit;
+				BC2: bit;
+				AB: bit;
+				AC: bit );
+	begin 
+	S <= A xor BC1;
+	BC1 <= B xor Cin;
+	BC2 <= B and Cin;
+	AB <= A and B;
+	AC <= A and C;
+	Cout <= BC2 or AB or AC;
