@@ -1,0 +1,65 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Parte_A_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture behavioral of FullAdder
+# 
+# vcom -93 -work work {C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder_testbench
+# -- Compiling architecture pepe of FullAdder_testbench
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(44): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(44): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(44): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(45): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(45): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(45): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(46): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(46): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(46): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(46): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(47): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(47): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(47): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(48): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(48): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(48): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(49): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(49): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(49): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(50): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(50): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(50): Integer literal 0 is not of type std.STANDARD.BIT.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(51): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(51): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(51): Integer literal 1 is not of type std.STANDARD.BIT.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd(62): near "End": expecting ';'
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./Parte_A_run_msim_rtl_vhdl.do line 10
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/altera/13.0sp1/Laboratorio_1/Parte A/FullAdder_testbench.vhd}"

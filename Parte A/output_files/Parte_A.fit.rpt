@@ -1,5 +1,5 @@
 Fitter report for Parte_A
-Mon Oct 20 16:21:50 2025
+Mon Oct 20 23:39:23 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -63,10 +63,10 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Mon Oct 20 16:21:50 2025           ;
+; Fitter Status                      ; Successful - Mon Oct 20 23:39:23 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; Parte_A                                         ;
-; Top-level Entity Name              ; FullAdder                                       ;
+; Top-level Entity Name              ; FullAdder_BlockDiagram_Parte2                   ;
 ; Family                             ; Cyclone III                                     ;
 ; Device                             ; EP3C120F780C7                                   ;
 ; Timing Models                      ; Final                                           ;
@@ -201,7 +201,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/altera/13.0sp1/Laboratorio1/Parte A/output_files/Parte_A.pin.
+The pin-out file can be found in C:/altera/13.0sp1/Laboratorio_1/Parte A/output_files/Parte_A.pin.
 
 
 +---------------------------------------------------------------------+
@@ -1171,13 +1171,14 @@ The pin-out file can be found in C:/altera/13.0sp1/Laboratorio1/Parte A/output_f
 Note: Pin directions (input, output or bidir) are based on device operating in user mode.
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                           ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
-; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name ; Library Name ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
-; |FullAdder                 ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 5    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |FullAdder          ; work         ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                         ;
++--------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------+--------------+
+; Compilation Hierarchy Node     ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                           ; Library Name ;
++--------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------+--------------+
+; |FullAdder_BlockDiagram_Parte2 ; 2 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 5    ; 0            ; 2 (0)        ; 0 (0)             ; 0 (0)            ; |FullAdder_BlockDiagram_Parte2                ; work         ;
+;    |FullAdder:inst|            ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |FullAdder_BlockDiagram_Parte2|FullAdder:inst ; work         ;
++--------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -1194,34 +1195,34 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------+----------+---------------+---------------+-----------------------+-----+------+
 
 
-+---------------------------------------------------+
-; Pad To Core Delay Chain Fanout                    ;
-+---------------------+-------------------+---------+
-; Source Pin / Fanout ; Pad To Core Index ; Setting ;
-+---------------------+-------------------+---------+
-; A                   ;                   ;         ;
-;      - S~0          ; 0                 ; 6       ;
-;      - Cout~0       ; 0                 ; 6       ;
-; B                   ;                   ;         ;
-;      - S~0          ; 0                 ; 6       ;
-;      - Cout~0       ; 0                 ; 6       ;
-; Cin                 ;                   ;         ;
-;      - S~0          ; 0                 ; 6       ;
-;      - Cout~0       ; 0                 ; 6       ;
-+---------------------+-------------------+---------+
++------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                             ;
++------------------------------+-------------------+---------+
+; Source Pin / Fanout          ; Pad To Core Index ; Setting ;
++------------------------------+-------------------+---------+
+; A                            ;                   ;         ;
+;      - FullAdder:inst|S~0    ; 0                 ; 6       ;
+;      - FullAdder:inst|Cout~0 ; 0                 ; 6       ;
+; B                            ;                   ;         ;
+;      - FullAdder:inst|S~0    ; 0                 ; 6       ;
+;      - FullAdder:inst|Cout~0 ; 0                 ; 6       ;
+; Cin                          ;                   ;         ;
+;      - FullAdder:inst|S~0    ; 0                 ; 6       ;
+;      - FullAdder:inst|Cout~0 ; 0                 ; 6       ;
++------------------------------+-------------------+---------+
 
 
 +---------------------------------+
 ; Non-Global High Fan-Out Signals ;
-+-----------+---------------------+
-; Name      ; Fan-Out             ;
-+-----------+---------------------+
-; Cin~input ; 2                   ;
-; B~input   ; 2                   ;
-; A~input   ; 2                   ;
-; Cout~0    ; 1                   ;
-; S~0       ; 1                   ;
-+-----------+---------------------+
++-----------------------+---------+
+; Name                  ; Fan-Out ;
++-----------------------+---------+
+; Cin~input             ; 2       ;
+; B~input               ; 2       ;
+; A~input               ; 2       ;
+; FullAdder:inst|Cout~0 ; 1       ;
+; FullAdder:inst|S~0    ; 1       ;
++-----------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -1437,7 +1438,7 @@ Info (332130): Timing requirements not specified -- quality metrics such as perf
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -1450,23 +1451,23 @@ Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.09 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.13 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Info (144001): Generated suppressed messages file C:/altera/13.0sp1/Laboratorio1/Parte A/output_files/Parte_A.fit.smsg
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (144001): Generated suppressed messages file C:/altera/13.0sp1/Laboratorio_1/Parte A/output_files/Parte_A.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 5046 megabytes
-    Info: Processing ended: Mon Oct 20 16:21:51 2025
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:14
+    Info: Peak virtual memory: 5030 megabytes
+    Info: Processing ended: Mon Oct 20 23:39:24 2025
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:15
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/altera/13.0sp1/Laboratorio1/Parte A/output_files/Parte_A.fit.smsg.
+The suppressed messages can be found in C:/altera/13.0sp1/Laboratorio_1/Parte A/output_files/Parte_A.fit.smsg.
 
 

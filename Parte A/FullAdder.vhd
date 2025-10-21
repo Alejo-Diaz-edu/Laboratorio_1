@@ -2,15 +2,15 @@ library	ieee;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity FullAdder is
-port( A: in bit;
-		B: in bit;
-		Cin: in bit;
-		S: out bit;
-		Cout: out bit);
+port( A: in std_logic;
+		B: in std_logic;
+		Cin: in std_logic;
+		S: out std_logic;
+		Cout: out std_logic);
 End FullAdder;
 
 architecture behavioral of FullAdder is
-	signal BC1, BC2, AB, AC : bit;
+	signal BC1, BC2, AB, AC : std_logic;
 	
 	BEGIN
 	S <= A xor BC1;

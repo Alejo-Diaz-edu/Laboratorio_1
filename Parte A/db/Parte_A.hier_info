@@ -1,4 +1,12 @@
-|FullAdder
+|FullAdder_BlockDiagram_Parte2
+S <= FullAdder:inst.S
+A => FullAdder:inst.A
+B => FullAdder:inst.B
+Cin => FullAdder:inst.Cin
+Cout <= FullAdder:inst.Cout
+
+
+|FullAdder_BlockDiagram_Parte2|FullAdder:inst
 A => S.IN1
 A => AB.IN0
 A => AC.IN0
