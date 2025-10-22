@@ -1,0 +1,70 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do MultiSinSingo_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {MultiSinSingo.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity MultiplicadorSS
+# -- Compiling architecture structure of MultiplicadorSS
+# 
+# vcom -93 -work work {C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MultiplicadorSS_tb
+# -- Compiling architecture bdf_type of MultiplicadorSS_tb
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(76): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(78): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  MultiplicadorSS_tb
+# vsim -L altera -L cycloneiii -L gate_work -L work -voptargs=\"+acc\" -t 1ps MultiplicadorSS_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.multiplicadorss_tb(bdf_type)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiii.cycloneiii_atom_pack(body)
+# Loading cycloneiii.cycloneiii_components
+# Loading work.multiplicadorss(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiii.cycloneiii_io_obuf(arch)
+# Loading cycloneiii.cycloneiii_io_ibuf(arch)
+# Loading cycloneiii.cycloneiii_lcell_comb(vital_lcell_comb)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all

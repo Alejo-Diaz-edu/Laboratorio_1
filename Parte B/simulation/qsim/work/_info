@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\Laboratorio_1\Parte B\simulation\qsim
+vMultiplicadorSS
+Z1 IlOK^OQB7_64?^3n:KILlM3
+Z2 V3i5?P=ZJ`:cfDG6ilKgeG0
+Z3 dC:\altera\13.0sp1\Laboratorio_1\Parte B\simulation\qsim
+Z4 w1761096364
+Z5 8MultiSinSingo.vo
+Z6 FMultiSinSingo.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@multiplicador@s@s
+!i10b 1
+Z10 !s100 STHP`?>Na<CM43T?8g@cX3
+!s85 0
+Z11 !s108 1761096365.799000
+Z12 !s107 MultiSinSingo.vo|
+Z13 !s90 -work|work|MultiSinSingo.vo|
+!s101 -O0
+vMultiplicadorSS_vlg_check_tst
+!i10b 1
+!s100 DhUdkE<DFQ7J[g8T<0nD:1
+IN0cdZi5V^=T1UF<DC@iH]0
+V5hPGfBSTWmA=J=lQHioX20
+R3
+Z14 w1761096361
+Z15 8MultiSinSingo.vt
+Z16 FMultiSinSingo.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1761096365.933000
+Z18 !s107 MultiSinSingo.vt|
+Z19 !s90 -work|work|MultiSinSingo.vt|
+!s101 -O0
+R8
+n@multiplicador@s@s_vlg_check_tst
+vMultiplicadorSS_vlg_sample_tst
+!i10b 1
+!s100 1h1VK8YbN882FI3WmWaDJ2
+IVC;D_0;=16[9nQkKW9<Og0
+V_nni?>X^VBVlnZ[jU@WVz3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@multiplicador@s@s_vlg_sample_tst
+vMultiplicadorSS_vlg_vec_tst
+!i10b 1
+!s100 nEFD^conUz:kD0J8`@=YV0
+IFX4MS]5ieoSnigZ0naW8U3
+VII_^P0E]64P[g9Mga408X2
+R3
+R14
+R15
+R16
+L0 239
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@multiplicador@s@s_vlg_vec_tst

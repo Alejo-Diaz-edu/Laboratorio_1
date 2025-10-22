@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\Laboratorio_1\Parte B\simulation\modelsim
+Emultiplicadorss
+Z1 w1761099901
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 n^46VOjinLK5_01fgQc6Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx10 cycloneiii 21 cycloneiii_components 0 22 VeH8af>S`B?U[[D6_Khe@0
+Z8 dC:\altera\13.0sp1\Laboratorio_1\Parte B\simulation\modelsim
+Z9 8MultiSinSingo.vho
+Z10 FMultiSinSingo.vho
+l0
+L34
+V2FWai=m8zaiWTQIMmBF`42
+Z11 OV;C;10.1d;51
+31
+Z12 !s108 1761100527.222000
+Z13 !s90 -reportprogress|300|-93|-work|work|MultiSinSingo.vho|
+Z14 !s107 MultiSinSingo.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+!s100 gOB;22bm<ENh668z8c_6L1
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 15 multiplicadorss 0 22 2FWai=m8zaiWTQIMmBF`42
+l89
+L58
+VVMF4>8U=0D58?o_OL_gC]2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 WYaIzAHdUEB^gmVF@_mnM1
+!i10b 1
+Emultiplicadorss_tb
+Z17 w1761099859
+R5
+R6
+R8
+Z18 8C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd
+Z19 FC:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd
+l0
+L24
+V<P5@m?Nk:lef?8<IU3lZn2
+!s100 c9BzOONV4CZ1YK40z2Lma1
+R11
+31
+!i10b 1
+Z20 !s108 1761100527.402000
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd|
+Z22 !s107 C:/altera/13.0sp1/Laboratorio_1/Parte B/MultiplicadorSS_tb.vhd|
+R15
+R16
+Abdf_type
+R5
+R6
+DEx4 work 18 multiplicadorss_tb 0 22 <P5@m?Nk:lef?8<IU3lZn2
+l61
+L28
+VSZmS[oN<HZV?d=g8mJ:5[2
+!s100 GWha;aEYFiU^7NN;kW_5K3
+R11
+31
+!i10b 1
+R20
+R21
+R22
+R15
+R16

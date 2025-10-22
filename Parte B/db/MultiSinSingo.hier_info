@@ -1,0 +1,43 @@
+|MultiplicadorSS
+A0 => R0.IN0
+A0 => SYNTHESIZED_WIRE_3.IN0
+A1 => SYNTHESIZED_WIRE_4.IN0
+A1 => SYNTHESIZED_WIRE_0.IN0
+B0 => R0.IN1
+B0 => SYNTHESIZED_WIRE_4.IN1
+B1 => SYNTHESIZED_WIRE_3.IN1
+B1 => SYNTHESIZED_WIRE_0.IN1
+R0 <= R0.DB_MAX_OUTPUT_PORT_TYPE
+R1 <= fulladder:b2v_inst1.S
+R2 <= fulladder:b2v_inst.S
+R3 <= fulladder:b2v_inst.Cout
+
+
+|MultiplicadorSS|fulladder:b2v_inst
+A => S.IN1
+A => AB.IN0
+A => AC.IN0
+B => BC1.IN0
+B => BC2.IN0
+B => AB.IN1
+Cin => BC1.IN1
+Cin => BC2.IN1
+Cin => AC.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiplicadorSS|fulladder:b2v_inst1
+A => S.IN1
+A => AB.IN0
+A => AC.IN0
+B => BC1.IN0
+B => BC2.IN0
+B => AB.IN1
+Cin => BC1.IN1
+Cin => BC2.IN1
+Cin => AC.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
