@@ -1,0 +1,25 @@
+Quartus II Archive log --	C:/altera/13.0sp1/MultiConSigno_tmp_archive.qarlog
+
+Archive:	C:/altera/13.0sp1/MultiConSigno_tmp_archive.qar
+Date:		Wed Oct 22 22:37:09 2025
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/altera/13.0sp1/Laboratorio1/Parte C/FullAdder.vhd
+C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.bdf
+C:/altera/13.0sp1/Laboratorio1/Parte C/Waveform.vwf
+C:/altera/13.0sp1/MultiConSigno.qpf
+C:/altera/13.0sp1/MultiConSigno.qsf
+C:/altera/13.0sp1/db/MultiConSigno.sim.vwf
+C:/altera/13.0sp1/incremental_db/compiled_partitions/MultiConSigno.db_info
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Oct 22 22:37:10 2025
+Source archive file:	C:/altera/13.0sp1/MultiConSigno_tmp_archive.qar
+Archive was extracted into	C:/altera/13.0sp1/Laboratorio1/Parte C/
+		 - successfully.
