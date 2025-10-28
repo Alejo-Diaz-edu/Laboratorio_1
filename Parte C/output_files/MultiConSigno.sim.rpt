@@ -1,5 +1,5 @@
 Simulator report for MultiConSigno
-Wed Oct 22 22:19:12 2025
+Thu Oct 23 16:00:55 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -45,9 +45,9 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 us       ;
-; Simulation Netlist Size     ; 37 nodes     ;
-; Simulation Coverage         ;      97.30 % ;
-; Total Number of Transitions ; 457          ;
+; Simulation Netlist Size     ; 41 nodes     ;
+; Simulation Coverage         ;      97.56 % ;
+; Total Number of Transitions ; 465          ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Cyclone III  ;
 +-----------------------------+--------------+
@@ -96,10 +96,10 @@ Please use Quartus II 64-Bit to view the waveform report data.
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;      97.30 % ;
-; Total nodes checked                                 ; 37           ;
-; Total output ports checked                          ; 37           ;
-; Total output ports with complete 1/0-value coverage ; 36           ;
+; Total coverage as a percentage                      ;      97.56 % ;
+; Total nodes checked                                 ; 41           ;
+; Total output ports checked                          ; 41           ;
+; Total output ports with complete 1/0-value coverage ; 40           ;
 ; Total output ports with no 1/0-value coverage       ; 1            ;
 ; Total output ports with no 1-value coverage         ; 1            ;
 ; Total output ports with no 0-value coverage         ; 1            ;
@@ -133,13 +133,17 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |MultiplicadorCS|inst27                  ; |MultiplicadorCS|inst27                  ; out0             ;
 ; |MultiplicadorCS|R3                      ; |MultiplicadorCS|R3                      ; pin_out          ;
 ; |MultiplicadorCS|inst42                  ; |MultiplicadorCS|inst42                  ; regout           ;
-; |MultiplicadorCS|inst28                  ; |MultiplicadorCS|inst28                  ; out0             ;
+; |MultiplicadorCS|inst32                  ; |MultiplicadorCS|inst32                  ; out0             ;
 ; |MultiplicadorCS|SIGNO                   ; |MultiplicadorCS|SIGNO                   ; pin_out          ;
 ; |MultiplicadorCS|inst41                  ; |MultiplicadorCS|inst41                  ; regout           ;
 ; |MultiplicadorCS|inst30                  ; |MultiplicadorCS|inst30                  ; out0             ;
+; |MultiplicadorCS|C0                      ; |MultiplicadorCS|C0                      ; pin_out          ;
+; |MultiplicadorCS|C1                      ; |MultiplicadorCS|C1                      ; pin_out          ;
+; |MultiplicadorCS|FullAdder:inst28|S      ; |MultiplicadorCS|FullAdder:inst28|S      ; out0             ;
 ; |MultiplicadorCS|FullAdder:inst20|S      ; |MultiplicadorCS|FullAdder:inst20|S      ; out0             ;
 ; |MultiplicadorCS|FullAdder:inst20|BC1    ; |MultiplicadorCS|FullAdder:inst20|BC1    ; out0             ;
 ; |MultiplicadorCS|FullAdder:inst17|S      ; |MultiplicadorCS|FullAdder:inst17|S      ; out0             ;
+; |MultiplicadorCS|FullAdder:inst17|AC     ; |MultiplicadorCS|FullAdder:inst17|AC     ; out0             ;
 ; |MultiplicadorCS|FullAdder:inst19|S      ; |MultiplicadorCS|FullAdder:inst19|S      ; out0             ;
 ; |MultiplicadorCS|FullAdder:inst19|BC1    ; |MultiplicadorCS|FullAdder:inst19|BC1    ; out0             ;
 ; |MultiplicadorCS|FullAdder:inst19|BC2    ; |MultiplicadorCS|FullAdder:inst19|BC2    ; out0             ;
@@ -184,19 +188,19 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Simulator
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Oct 22 22:19:10 2025
+    Info: Processing started: Thu Oct 23 16:00:54 2025
 Info: Command: quartus_sim --simulation_results_format=VWF MultiConSigno -c MultiConSigno
 Info (324025): Using vector source file "C:/altera/13.0sp1/Laboratorio1/Parte C/Waveform.vwf"
 Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
 Info (310002): Simulation partitioned into 1 sub-simulations
-Info (328053): Simulation coverage is      97.30 %
-Info (328052): Number of transitions in simulation is 457
+Info (328053): Simulation coverage is      97.56 %
+Info (328052): Number of transitions in simulation is 465
 Info (324045): Vector file MultiConSigno.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
 Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4446 megabytes
-    Info: Processing ended: Wed Oct 22 22:19:12 2025
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 4445 megabytes
+    Info: Processing ended: Thu Oct 23 16:00:55 2025
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

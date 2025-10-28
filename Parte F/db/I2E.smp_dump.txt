@@ -1,0 +1,8 @@
+
+State Machine - |I2E_completo|I2E_Maquina_De_Estado:inst|fstate
+Name fstate.Idle fstate.Guarda_dir fstate.Guarda_Dat fstate.ACK_State fstate.RoW 
+fstate.RoW 0 0 0 0 0 
+fstate.ACK_State 0 0 0 1 1 
+fstate.Guarda_Dat 0 0 1 0 1 
+fstate.Guarda_dir 0 1 0 0 1 
+fstate.Idle 1 0 0 0 1 

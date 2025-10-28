@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\Laboratorio1\Parte F\simulation\qsim
+vI2E_completo
+Z1 !s100 86_UT]gZLAF8lo7l2fjBK2
+Z2 Ie=T<7RWYT]7g[WaZcBU2I3
+Z3 Vgk>l]l;Ud5LjTiGKPC`nh1
+Z4 dC:\altera\13.0sp1\Laboratorio1\Parte F\simulation\qsim
+Z5 w1761674394
+Z6 8I2E.vo
+Z7 FI2E.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|I2E.vo|
+Z10 o-work work -O0
+Z11 n@i2@e_completo
+!i10b 1
+!s85 0
+Z12 !s108 1761674395.637000
+Z13 !s107 I2E.vo|
+!s101 -O0
+vI2E_completo_vlg_check_tst
+!i10b 1
+Z14 !s100 dVU@TRZQGTOUWl^YO>_A73
+Z15 I<?;3^KaMHePzIhMTOLVmM3
+Z16 VXJFiYJibm?ZUhNGClO8]^2
+R4
+Z17 w1761674392
+Z18 8I2E.vt
+Z19 FI2E.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1761674395.772000
+Z21 !s107 I2E.vt|
+Z22 !s90 -work|work|I2E.vt|
+!s101 -O0
+R10
+Z23 n@i2@e_completo_vlg_check_tst
+vI2E_completo_vlg_sample_tst
+!i10b 1
+Z24 !s100 f4Ii<njh^U[k>5=Jz<dF?1
+Z25 I;cTWS`eEZKPO05ORkN>Po1
+Z26 VU2Y;dY75?EleWEV^C[RJA2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@i2@e_completo_vlg_sample_tst
+vI2E_completo_vlg_vec_tst
+!i10b 1
+Z28 !s100 m:i@L_47^3cX_YYcBXT6K0
+Z29 I3Hz?iDiIDBF@lWV2hPjHZ2
+Z30 VYJ??[9:BA5L6eA;U42n6A1
+R4
+R17
+R18
+R19
+Z31 L0 329
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@i2@e_completo_vlg_vec_tst
+vI2E_Maquina_De_Estado
+Z33 Im_zczVGAfaDg6LnPhPaO71
+Z34 VTm^53fB6DYoaePhJhXeeV3
+R4
+Z35 w1761674175
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z36 n@i2@e_@maquina_@de_@estado
+Z37 !s100 kl1UA9C6MgPmX1kYWAoQ53
+Z38 !s108 1761674176.469000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vI2E_Maquina_De_Estado_vlg_check_tst
+Z39 IM7mz4ZPFOj:]TlS1PGACG3
+Z40 VIkHH@40[W0_lFNESoSS3B0
+R4
+Z41 w1761674173
+R18
+R19
+L0 67
+R8
+r1
+31
+Z42 !s108 1761674176.591000
+Z43 !s107 I2E.vt|
+R22
+R10
+Z44 n@i2@e_@maquina_@de_@estado_vlg_check_tst
+Z45 !s100 `fG>hakP2]bRYQfZkWF>91
+!i10b 1
+!s85 0
+!s101 -O0
+vI2E_Maquina_De_Estado_vlg_sample_tst
+Z46 IiX5KnCWe167R7k<H>`g]O2
+Z47 VGC6?C:c7DEUhV8kg[9Umb3
+R4
+R41
+R18
+R19
+L0 29
+R8
+r1
+31
+R42
+R43
+R22
+R10
+Z48 n@i2@e_@maquina_@de_@estado_vlg_sample_tst
+Z49 !s100 5k4oY2[N]mjo:nY;I?f=31
+!i10b 1
+!s85 0
+!s101 -O0
+vI2E_Maquina_De_Estado_vlg_vec_tst
+Z50 I=:4LY^B:Qga6bon[VhQ<02
+Z51 VJLB9e2__Bc_jAWQX[[O4h1
+R4
+R41
+R18
+R19
+Z52 L0 172
+R8
+r1
+31
+R42
+R43
+R22
+R10
+Z53 n@i2@e_@maquina_@de_@estado_vlg_vec_tst
+Z54 !s100 `GXHZ0J=L3V?i;c^TFGZF3
+!i10b 1
+!s85 0
+!s101 -O0

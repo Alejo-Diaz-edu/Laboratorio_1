@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MultiConSigno
-Wed Oct 22 22:43:13 2025
+Thu Oct 23 17:03:45 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -14,12 +14,13 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Port Connectivity Checks: "FullAdder:b2v_inst21"
- 10. Port Connectivity Checks: "FullAdder:b2v_inst20"
- 11. Port Connectivity Checks: "FullAdder:b2v_inst18"
- 12. Port Connectivity Checks: "FullAdder:b2v_inst17"
- 13. Elapsed Time Per Partition
- 14. Analysis & Synthesis Messages
+  9. Port Connectivity Checks: "FullAdder:b2v_inst28"
+ 10. Port Connectivity Checks: "FullAdder:b2v_inst21"
+ 11. Port Connectivity Checks: "FullAdder:b2v_inst20"
+ 12. Port Connectivity Checks: "FullAdder:b2v_inst18"
+ 13. Port Connectivity Checks: "FullAdder:b2v_inst17"
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Messages
 
 
 
@@ -45,7 +46,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Oct 22 22:43:13 2025           ;
+; Analysis & Synthesis Status        ; Successful - Thu Oct 23 17:03:45 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; MultiConSigno                                   ;
 ; Top-level Entity Name              ; MultiplicadorCS                                 ;
@@ -179,8 +180,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;                                             ;           ;
 ; Total combinational functions               ; 5         ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 2         ;
-;     -- 3 input functions                    ; 1         ;
+;     -- 4 input functions                    ; 3         ;
+;     -- 3 input functions                    ; 0         ;
 ;     -- <=2 input functions                  ; 2         ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
@@ -195,8 +196,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ; Maximum fan-out node                        ; CLK~input ;
 ; Maximum fan-out                             ; 9         ;
-; Total fan-out                               ; 48        ;
-; Average fan-out                             ; 1.41      ;
+; Total fan-out                               ; 49        ;
+; Average fan-out                             ; 1.44      ;
 +---------------------------------------------+-----------+
 
 
@@ -228,6 +229,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "FullAdder:b2v_inst28"                                                               ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; b    ; Input  ; Info     ; Stuck at GND                                                                        ;
+; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +--------------------------------------------------+
 ; Port Connectivity Checks: "FullAdder:b2v_inst21" ;
 +------+-------+----------+------------------------+
@@ -256,14 +267,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------+-------+----------+------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "FullAdder:b2v_inst17"                                                               ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; b    ; Input  ; Info     ; Stuck at GND                                                                        ;
-; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
++--------------------------------------------------+
+; Port Connectivity Checks: "FullAdder:b2v_inst17" ;
++------+-------+----------+------------------------+
+; Port ; Type  ; Severity ; Details                ;
++------+-------+----------+------------------------+
+; b    ; Input ; Info     ; Stuck at GND           ;
++------+-------+----------+------------------------+
 
 
 +-------------------------------+
@@ -281,7 +291,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Oct 22 22:43:10 2025
+    Info: Processing started: Thu Oct 23 17:03:43 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MultiConSigno -c MultiConSigno
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file multiplicadorcs.vhd
@@ -290,14 +300,17 @@ Info (12021): Found 2 design units, including 1 entities, in source file multipl
 Info (12021): Found 2 design units, including 1 entities, in source file fulladder.vhd
     Info (12022): Found design unit 1: FullAdder-behavioral
     Info (12023): Found entity 1: FullAdder
+Info (12021): Found 2 design units, including 1 entities, in source file multiplicadorcs_tb.vhd
+    Info (12022): Found design unit 1: MultiplicadorCS_tb-bdf_type
+    Info (12023): Found entity 1: MultiplicadorCS_tb
 Info (12127): Elaborating entity "MultiplicadorCS" for the top level hierarchy
-Warning (10812): VHDL warning at MultiplicadorCS.vhd(94): sensitivity list already contains SYNTHESIZED_WIRE_42
-Warning (10812): VHDL warning at MultiplicadorCS.vhd(182): sensitivity list already contains SYNTHESIZED_WIRE_42
-Warning (10812): VHDL warning at MultiplicadorCS.vhd(194): sensitivity list already contains SYNTHESIZED_WIRE_42
-Warning (10812): VHDL warning at MultiplicadorCS.vhd(206): sensitivity list already contains SYNTHESIZED_WIRE_48
-Warning (10812): VHDL warning at MultiplicadorCS.vhd(221): sensitivity list already contains SYNTHESIZED_WIRE_49
-Warning (10812): VHDL warning at MultiplicadorCS.vhd(233): sensitivity list already contains SYNTHESIZED_WIRE_49
-Warning (10812): VHDL warning at MultiplicadorCS.vhd(255): sensitivity list already contains SYNTHESIZED_WIRE_49
+Warning (10812): VHDL warning at MultiplicadorCS.vhd(98): sensitivity list already contains SYNTHESIZED_WIRE_45
+Warning (10812): VHDL warning at MultiplicadorCS.vhd(195): sensitivity list already contains SYNTHESIZED_WIRE_45
+Warning (10812): VHDL warning at MultiplicadorCS.vhd(207): sensitivity list already contains SYNTHESIZED_WIRE_45
+Warning (10812): VHDL warning at MultiplicadorCS.vhd(219): sensitivity list already contains SYNTHESIZED_WIRE_51
+Warning (10812): VHDL warning at MultiplicadorCS.vhd(234): sensitivity list already contains SYNTHESIZED_WIRE_52
+Warning (10812): VHDL warning at MultiplicadorCS.vhd(246): sensitivity list already contains SYNTHESIZED_WIRE_52
+Warning (10812): VHDL warning at MultiplicadorCS.vhd(268): sensitivity list already contains SYNTHESIZED_WIRE_52
 Info (12128): Elaborating entity "FullAdder" for hierarchy "FullAdder:b2v_inst17"
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -307,9 +320,9 @@ Info (21057): Implemented 19 device resources after synthesis - the final resour
     Info (21059): Implemented 5 output pins
     Info (21061): Implemented 9 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 4648 megabytes
-    Info: Processing ended: Wed Oct 22 22:43:13 2025
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4644 megabytes
+    Info: Processing ended: Thu Oct 23 17:03:45 2025
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 

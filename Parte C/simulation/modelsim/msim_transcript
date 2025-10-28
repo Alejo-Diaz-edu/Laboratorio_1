@@ -1,0 +1,83 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do MultiConSigno_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MultiplicadorCS
+# -- Compiling architecture bdf_type of MultiplicadorCS
+# ** Warning: C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.vhd(98): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_45" found in sensitivity list.
+# 
+# ** Warning: C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.vhd(195): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_45" found in sensitivity list.
+# 
+# ** Warning: C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.vhd(207): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_45" found in sensitivity list.
+# 
+# ** Warning: C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.vhd(219): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_51" found in sensitivity list.
+# 
+# ** Warning: C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.vhd(234): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_52" found in sensitivity list.
+# 
+# ** Warning: C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.vhd(246): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_52" found in sensitivity list.
+# 
+# ** Warning: C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.vhd(268): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_52" found in sensitivity list.
+# 
+# vcom -93 -work work {C:/altera/13.0sp1/Laboratorio1/Parte C/FullAdder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture behavioral of FullAdder
+# 
+# vcom -93 -work work {C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MultiplicadorCS_tb
+# -- Compiling architecture bdf_type of MultiplicadorCS_tb
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(108): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd(109): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  MultiplicadorCS_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps MultiplicadorCS_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.multiplicadorcs_tb(bdf_type)
+# Loading work.multiplicadorcs(bdf_type)
+# Loading work.fulladder(behavioral)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit 
+# Break in Process line__258 at C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.vhd line 258

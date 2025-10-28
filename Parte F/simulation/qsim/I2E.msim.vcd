@@ -1,0 +1,961 @@
+$comment
+	File created using the following command:
+		vcd file I2E.msim.vcd -direction
+$end
+$date
+	Tue Oct 28 14:59:56 2025
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module I2E_completo_vlg_vec_tst $end
+$var reg 7 ! Direccion [6:0] $end
+$var reg 1 " SCL $end
+$var reg 1 # treg_SDA $end
+$var wire 1 $ ACK $end
+$var wire 1 % DATO [7] $end
+$var wire 1 & DATO [6] $end
+$var wire 1 ' DATO [5] $end
+$var wire 1 ( DATO [4] $end
+$var wire 1 ) DATO [3] $end
+$var wire 1 * DATO [2] $end
+$var wire 1 + DATO [1] $end
+$var wire 1 , DATO [0] $end
+$var wire 1 - SDA $end
+$var wire 1 . sampler $end
+$scope module i1 $end
+$var wire 1 / gnd $end
+$var wire 1 0 vcc $end
+$var wire 1 1 unknown $end
+$var tri1 1 2 devclrn $end
+$var tri1 1 3 devpor $end
+$var tri1 1 4 devoe $end
+$var wire 1 5 contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout $end
+$var wire 1 6 inst28|LPM_COMPARE_component|auto_generated|data_wire[0]~0_combout $end
+$var wire 1 7 inst2~combout $end
+$var wire 1 8 Direccion[6]~input_o $end
+$var wire 1 9 Direccion[5]~input_o $end
+$var wire 1 : Direccion[1]~input_o $end
+$var wire 1 ; Direccion[0]~input_o $end
+$var wire 1 < inst2~clkctrl_outclk $end
+$var wire 1 = bidireccional~o $end
+$var wire 1 > ACK~output_o $end
+$var wire 1 ? DATO[7]~output_o $end
+$var wire 1 @ DATO[6]~output_o $end
+$var wire 1 A DATO[5]~output_o $end
+$var wire 1 B DATO[4]~output_o $end
+$var wire 1 C DATO[3]~output_o $end
+$var wire 1 D DATO[2]~output_o $end
+$var wire 1 E DATO[1]~output_o $end
+$var wire 1 F DATO[0]~output_o $end
+$var wire 1 G SCL~input_o $end
+$var wire 1 H SCL~inputclkctrl_outclk $end
+$var wire 1 I bidireccional_ibuf~o $end
+$var wire 1 J Direccion[2]~input_o $end
+$var wire 1 K registro7|LPM_SHIFTREG_component|dffs[6]~feeder_combout $end
+$var wire 1 L registro7|LPM_SHIFTREG_component|dffs[5]~feeder_combout $end
+$var wire 1 M registro7|LPM_SHIFTREG_component|dffs[3]~feeder_combout $end
+$var wire 1 N inst|process_1~1_combout $end
+$var wire 1 O Direccion[4]~input_o $end
+$var wire 1 P inst|process_1~0_combout $end
+$var wire 1 Q Direccion[3]~input_o $end
+$var wire 1 R registro7|LPM_SHIFTREG_component|dffs[1]~feeder_combout $end
+$var wire 1 S inst|process_1~2_combout $end
+$var wire 1 T inst|process_1~3_combout $end
+$var wire 1 U contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout $end
+$var wire 1 V contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT $end
+$var wire 1 W contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout $end
+$var wire 1 X contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT $end
+$var wire 1 Y contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout $end
+$var wire 1 Z contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT $end
+$var wire 1 [ contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~0_combout $end
+$var wire 1 \ contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout $end
+$var wire 1 ] contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT $end
+$var wire 1 ^ contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT $end
+$var wire 1 _ contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout $end
+$var wire 1 ` contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT $end
+$var wire 1 a contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~0_combout $end
+$var wire 1 b inst|Selector1~0_combout $end
+$var wire 1 c inst|Selector1~1_combout $end
+$var wire 1 d inst|fstate.Idle~q $end
+$var wire 1 e inst|Selector5~0_combout $end
+$var wire 1 f inst|fstate.Guarda_dir~q $end
+$var wire 1 g inst|Selector2~0_combout $end
+$var wire 1 h inst|fstate.RoW~q $end
+$var wire 1 i inst|fstate.ACK_State~0_combout $end
+$var wire 1 j inst|fstate.ACK_State~q $end
+$var wire 1 k inst|Selector4~0_combout $end
+$var wire 1 l inst|fstate.Guarda_Dat~q $end
+$var wire 1 m inst3~combout $end
+$var wire 1 n inst3~clkctrl_outclk $end
+$var wire 1 o registro8bits|LPM_SHIFTREG_component|dffs[7]~feeder_combout $end
+$var wire 1 p registro8bits|LPM_SHIFTREG_component|dffs[6]~feeder_combout $end
+$var wire 1 q registro8bits|LPM_SHIFTREG_component|dffs[5]~feeder_combout $end
+$var wire 1 r registro8bits|LPM_SHIFTREG_component|dffs[4]~feeder_combout $end
+$var wire 1 s registro8bits|LPM_SHIFTREG_component|dffs[3]~feeder_combout $end
+$var wire 1 t registro8bits|LPM_SHIFTREG_component|dffs[2]~feeder_combout $end
+$var wire 1 u registro8bits|LPM_SHIFTREG_component|dffs[1]~feeder_combout $end
+$var wire 1 v contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit [2] $end
+$var wire 1 w contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit [1] $end
+$var wire 1 x contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit [0] $end
+$var wire 1 y contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit [2] $end
+$var wire 1 z contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit [1] $end
+$var wire 1 { contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit [0] $end
+$var wire 1 | registro7|LPM_SHIFTREG_component|dffs [6] $end
+$var wire 1 } registro7|LPM_SHIFTREG_component|dffs [5] $end
+$var wire 1 ~ registro7|LPM_SHIFTREG_component|dffs [4] $end
+$var wire 1 !! registro7|LPM_SHIFTREG_component|dffs [3] $end
+$var wire 1 "! registro7|LPM_SHIFTREG_component|dffs [2] $end
+$var wire 1 #! registro7|LPM_SHIFTREG_component|dffs [1] $end
+$var wire 1 $! registro7|LPM_SHIFTREG_component|dffs [0] $end
+$var wire 1 %! registro8bits|LPM_SHIFTREG_component|dffs [7] $end
+$var wire 1 &! registro8bits|LPM_SHIFTREG_component|dffs [6] $end
+$var wire 1 '! registro8bits|LPM_SHIFTREG_component|dffs [5] $end
+$var wire 1 (! registro8bits|LPM_SHIFTREG_component|dffs [4] $end
+$var wire 1 )! registro8bits|LPM_SHIFTREG_component|dffs [3] $end
+$var wire 1 *! registro8bits|LPM_SHIFTREG_component|dffs [2] $end
+$var wire 1 +! registro8bits|LPM_SHIFTREG_component|dffs [1] $end
+$var wire 1 ,! registro8bits|LPM_SHIFTREG_component|dffs [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100011 !
+1"
+1#
+0$
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+1-
+x.
+0/
+10
+x1
+12
+13
+14
+05
+16
+07
+08
+19
+1:
+1;
+0<
+z=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+1G
+1H
+1I
+0J
+1K
+0L
+0M
+1N
+0O
+0P
+0Q
+0R
+1S
+1T
+1U
+0V
+0W
+1X
+0Y
+0Z
+0[
+1\
+0]
+1^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+1g
+0h
+1i
+0j
+0k
+0l
+0m
+0n
+1o
+0p
+0q
+0r
+0s
+0t
+0u
+0x
+0w
+0v
+0{
+0z
+0y
+0$!
+0#!
+0"!
+0!!
+0~
+0}
+0|
+0,!
+0+!
+0*!
+0)!
+0(!
+0'!
+0&!
+0%!
+$end
+#20000
+0#
+0-
+0I
+0.
+0o
+0K
+#22466
+0"
+0G
+0H
+1.
+#32500
+1"
+1G
+1H
+0.
+1h
+1j
+0i
+1k
+1>
+1=
+1$
+x-
+xI
+xo
+xK
+#37500
+0"
+0G
+0H
+1.
+#40000
+1#
+1-
+1I
+0.
+1o
+1K
+#42500
+1"
+1G
+1H
+1.
+1l
+0j
+1m
+0>
+z=
+1n
+0$
+1x
+1%!
+1]
+0\
+1p
+1?
+1%
+15
+#47500
+0"
+0G
+0H
+0.
+0m
+0n
+#50000
+0#
+0-
+0I
+1.
+0o
+0K
+#52500
+1"
+1G
+1H
+0.
+1m
+1n
+0x
+1w
+1&!
+0%!
+0]
+1\
+0^
+05
+1q
+0p
+1@
+0?
+1&
+0%
+1^
+15
+1_
+0_
+#57500
+0"
+0G
+0H
+1.
+0m
+0n
+#62500
+1"
+1G
+1H
+0.
+1m
+1n
+1x
+1'!
+0&!
+1]
+0\
+1r
+0q
+1A
+0@
+1'
+0&
+0^
+05
+1_
+#67500
+0"
+0G
+0H
+1.
+0m
+0n
+#72500
+1"
+1G
+1H
+0.
+1m
+1n
+1v
+0x
+0w
+1(!
+0'!
+1`
+0_
+0]
+1\
+1^
+15
+1s
+0r
+1B
+0A
+1(
+0'
+1a
+05
+0`
+1_
+0k
+1b
+0a
+1c
+1k
+0b
+0c
+#77500
+0"
+0G
+0H
+1.
+0m
+0n
+#80000
+1#
+1-
+1I
+0.
+1o
+1K
+#82500
+1"
+1G
+1H
+1.
+1m
+1n
+1x
+1)!
+0(!
+1%!
+1]
+0\
+1t
+0s
+1p
+1C
+0B
+1?
+1)
+0(
+1%
+15
+#87500
+0"
+0G
+0H
+0.
+0m
+0n
+#92500
+1"
+1G
+1H
+1.
+1m
+1n
+0x
+1w
+1*!
+0)!
+1&!
+0]
+1\
+0^
+05
+1u
+0t
+1q
+1D
+0C
+1@
+1*
+0)
+1&
+1^
+15
+1`
+0_
+0`
+1_
+1a
+0a
+0k
+1b
+1k
+0b
+1c
+0c
+#97500
+0"
+0G
+0H
+0.
+0m
+0n
+#100000
+0#
+0-
+0I
+1.
+0o
+0K
+#102500
+1"
+1G
+1H
+0.
+1m
+1n
+1x
+1+!
+0*!
+1'!
+0%!
+1]
+0\
+0u
+1r
+0p
+1E
+0D
+1A
+0?
+1+
+0*
+1'
+0%
+0^
+05
+1`
+0_
+1a
+0k
+1b
+1c
+#107500
+0"
+0G
+0H
+1.
+0m
+0n
+#112500
+1"
+1G
+1H
+0.
+1m
+1n
+0v
+0x
+0w
+0l
+1d
+1,!
+0+!
+1(!
+0&!
+0`
+1_
+0]
+1\
+1^
+15
+0m
+0b
+1e
+1s
+0q
+1F
+0E
+1B
+0@
+0n
+1,
+0+
+1(
+0&
+0a
+05
+0_
+0c
+#117500
+0"
+0G
+0H
+1.
+#120000
+x#
+x-
+xI
+0.
+xo
+xe
+xb
+xK
+xc
+#140000
+0#
+0-
+0I
+1.
+0o
+1e
+0b
+0K
+0c
+#142500
+1"
+1G
+1H
+0.
+1f
+0d
+1c
+17
+0e
+1<
+1{
+1V
+0U
+1W
+#147500
+0"
+0G
+0H
+1.
+07
+0<
+#150000
+1#
+1-
+1I
+0.
+1o
+1K
+#152500
+1"
+1G
+1H
+1.
+17
+1<
+1z
+0{
+1|
+0f
+1d
+0X
+0W
+0V
+1U
+1P
+1L
+0c
+07
+1b
+0<
+1Y
+1X
+1W
+1c
+0Y
+#157500
+0"
+0G
+0H
+0.
+#160000
+0#
+0-
+0I
+1.
+0o
+1e
+0b
+0K
+0c
+#162500
+1"
+1G
+1H
+0.
+1f
+0d
+1c
+17
+0e
+1<
+1{
+1}
+0|
+1V
+0U
+0N
+0P
+0L
+0X
+0W
+1Y
+#167500
+0"
+0G
+0H
+1.
+07
+0<
+#172500
+1"
+1G
+1H
+0.
+17
+1<
+1y
+0z
+0{
+1~
+0}
+0f
+1d
+1Z
+0Y
+1X
+1W
+0V
+1U
+1P
+1M
+1N
+0c
+07
+1e
+0<
+1[
+0Z
+1Y
+0W
+0[
+#177500
+0"
+0G
+0H
+1.
+#182500
+1"
+1G
+1H
+0.
+1f
+0d
+1c
+17
+0e
+1<
+1{
+1!!
+0~
+1V
+0U
+0P
+0M
+1W
+#187500
+0"
+0G
+0H
+1.
+07
+0<
+#192500
+1"
+1G
+1H
+0.
+17
+1<
+1z
+0{
+1"!
+0!!
+0f
+1d
+0X
+0W
+0V
+1U
+1R
+0c
+07
+1e
+0<
+1Z
+0Y
+1X
+1W
+1[
+0Z
+1Y
+0[
+#197500
+0"
+0G
+0H
+1.
+#202500
+1"
+1G
+1H
+0.
+1f
+0d
+1c
+17
+0e
+1<
+1{
+1#!
+0"!
+1V
+0U
+06
+0R
+0X
+0W
+1Z
+0Y
+1[
+0g
+0c
+#207500
+0"
+0G
+0H
+1.
+07
+0<
+#210000
+1#
+1-
+1I
+0.
+1o
+1K
+#212500
+1"
+1G
+1H
+1.
+17
+1<
+0y
+0z
+0{
+1$!
+0#!
+1|
+0f
+0h
+0Z
+1Y
+1X
+1W
+0V
+1U
+0S
+16
+1P
+1L
+1g
+07
+1i
+0<
+0[
+0Y
+0W
+#217500
+0"
+0G
+0H
+0.
+#220000
+0#
+0-
+0I
+1.
+0o
+0K
+#222500
+1"
+1G
+1H
+0.
+1h
+1j
+0i
+1k
+1>
+1=
+1$
+x-
+xI
+xo
+xK
+#227500
+0"
+0G
+0H
+1.
+#237506
+1"
+1G
+1H
+0.
+1l
+0j
+1m
+0>
+z=
+1n
+0$
+0-
+0I
+0o
+0K
+1x
+0,!
+1)!
+0'!
+x%!
+1]
+0\
+1t
+0r
+xp
+0F
+1C
+0A
+x?
+0,
+1)
+0'
+x%
+15
+#240000
+1#
+1-
+1I
+1.
+1o
+1K
+#330000
+0"
+0#
+0-
+0G
+0I
+0H
+0.
+0m
+0o
+0K
+0n
+#1000000
