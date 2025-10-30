@@ -4,11 +4,11 @@ K3
 cModel Technology
 Z0 dC:\altera\13.0sp1\Laboratorio1\Parte F\simulation\qsim
 vI2E_completo
-Z1 !s100 86_UT]gZLAF8lo7l2fjBK2
-Z2 Ie=T<7RWYT]7g[WaZcBU2I3
+Z1 !s100 B7Y?Y6jBSOK8@0QlA<W@01
+Z2 INV1F^kclEUSLU<U6[AJN`2
 Z3 Vgk>l]l;Ud5LjTiGKPC`nh1
 Z4 dC:\altera\13.0sp1\Laboratorio1\Parte F\simulation\qsim
-Z5 w1761674394
+Z5 w1761845694
 Z6 8I2E.vo
 Z7 FI2E.vo
 L0 31
@@ -20,7 +20,7 @@ Z10 o-work work -O0
 Z11 n@i2@e_completo
 !i10b 1
 !s85 0
-Z12 !s108 1761674395.637000
+Z12 !s108 1761845696.146000
 Z13 !s107 I2E.vo|
 !s101 -O0
 vI2E_completo_vlg_check_tst
@@ -29,7 +29,7 @@ Z14 !s100 dVU@TRZQGTOUWl^YO>_A73
 Z15 I<?;3^KaMHePzIhMTOLVmM3
 Z16 VXJFiYJibm?ZUhNGClO8]^2
 R4
-Z17 w1761674392
+Z17 w1761845693
 Z18 8I2E.vt
 Z19 FI2E.vt
 L0 61
@@ -37,7 +37,7 @@ R8
 r1
 !s85 0
 31
-Z20 !s108 1761674395.772000
+Z20 !s108 1761845696.280000
 Z21 !s107 I2E.vt|
 Z22 !s90 -work|work|I2E.vt|
 !s101 -O0

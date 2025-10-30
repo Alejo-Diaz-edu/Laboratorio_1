@@ -1,0 +1,1316 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 1000.0;
+	SIMULATION_TIME = 0.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 0.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|A0")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|A1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|B0")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|B1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|RCS[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|RCS[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|RCS[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|RCS[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|RSS[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|RSS[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|RSS[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|RSS[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|sampler")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|gnd")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|vcc")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|unknown")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|devclrn")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|devpor")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|devoe")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|RCS[0]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|RCS[1]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|RCS[2]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|RCS[3]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|RSS[0]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|RSS[1]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|RSS[2]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|RSS[3]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|B0~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|A0~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[0]~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|B1~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|A1~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[1]~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[2]~2_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[3]~3_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|Mult1|mult_core|result[2]~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Multiplicadores_vlg_vec_tst|i1|Mult1|mult_core|result[3]~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|A0")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|A1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+		LEVEL 1 FOR 400.0;
+		LEVEL 0 FOR 200.0;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|B0")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 200.0;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|B1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 200.0;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|RCS[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.288;
+		LEVEL 0 FOR 300.888;
+		LEVEL 1 FOR 99.442;
+		LEVEL 0 FOR 50.356;
+		LEVEL 1 FOR 50.135;
+		LEVEL 0 FOR 149.865;
+		LEVEL 1 FOR 50.135;
+		LEVEL 0 FOR 292.891;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|RCS[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 12.248;
+		LEVEL 0 FOR 300.825;
+		LEVEL 1 FOR 99.503;
+		LEVEL 0 FOR 50.325;
+		LEVEL 1 FOR 99.984;
+		LEVEL 0 FOR 100.016;
+		LEVEL 1 FOR 50.167;
+		LEVEL 0 FOR 286.932;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|RCS[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.572;
+		LEVEL 0 FOR 300.904;
+		LEVEL 1 FOR 99.429;
+		LEVEL 0 FOR 50.399;
+		LEVEL 1 FOR 50.295;
+		LEVEL 0 FOR 49.705;
+		LEVEL 1 FOR 49.79;
+		LEVEL 0 FOR 50.21;
+		LEVEL 1 FOR 99.921;
+		LEVEL 0 FOR 242.775;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|RCS[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.294;
+		LEVEL 0 FOR 250.721;
+		LEVEL 1 FOR 50.297;
+		LEVEL 0 FOR 49.703;
+		LEVEL 1 FOR 50.172;
+		LEVEL 0 FOR 249.828;
+		LEVEL 1 FOR 50.297;
+		LEVEL 0 FOR 49.703;
+		LEVEL 1 FOR 50.172;
+		LEVEL 0 FOR 192.813;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|RSS[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.126;
+		LEVEL 0 FOR 750.846;
+		LEVEL 1 FOR 50.017;
+		LEVEL 0 FOR 193.011;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|RSS[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.654;
+		LEVEL 0 FOR 501.052;
+		LEVEL 1 FOR 99.637;
+		LEVEL 0 FOR 100.607;
+		LEVEL 1 FOR 49.525;
+		LEVEL 0 FOR 242.525;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|RSS[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.572;
+		LEVEL 0 FOR 300.904;
+		LEVEL 1 FOR 99.429;
+		LEVEL 0 FOR 50.399;
+		LEVEL 1 FOR 50.295;
+		LEVEL 0 FOR 49.705;
+		LEVEL 1 FOR 49.79;
+		LEVEL 0 FOR 50.21;
+		LEVEL 1 FOR 99.921;
+		LEVEL 0 FOR 242.775;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|RSS[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.304;
+		LEVEL 0 FOR 250.721;
+		LEVEL 1 FOR 50.297;
+		LEVEL 0 FOR 49.703;
+		LEVEL 1 FOR 50.172;
+		LEVEL 0 FOR 249.828;
+		LEVEL 1 FOR 50.297;
+		LEVEL 0 FOR 49.703;
+		LEVEL 1 FOR 50.172;
+		LEVEL 0 FOR 192.803;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|sampler")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 200.0;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|gnd")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|vcc")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|unknown")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|devclrn")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|devpor")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|devoe")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|RCS[0]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.294;
+		LEVEL 0 FOR 250.721;
+		LEVEL 1 FOR 50.297;
+		LEVEL 0 FOR 49.703;
+		LEVEL 1 FOR 50.172;
+		LEVEL 0 FOR 249.828;
+		LEVEL 1 FOR 50.297;
+		LEVEL 0 FOR 49.703;
+		LEVEL 1 FOR 50.172;
+		LEVEL 0 FOR 192.813;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|RCS[1]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.572;
+		LEVEL 0 FOR 300.904;
+		LEVEL 1 FOR 99.429;
+		LEVEL 0 FOR 50.399;
+		LEVEL 1 FOR 50.295;
+		LEVEL 0 FOR 49.705;
+		LEVEL 1 FOR 49.79;
+		LEVEL 0 FOR 50.21;
+		LEVEL 1 FOR 99.921;
+		LEVEL 0 FOR 242.775;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|RCS[2]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 12.248;
+		LEVEL 0 FOR 300.825;
+		LEVEL 1 FOR 99.503;
+		LEVEL 0 FOR 50.325;
+		LEVEL 1 FOR 99.984;
+		LEVEL 0 FOR 100.016;
+		LEVEL 1 FOR 50.167;
+		LEVEL 0 FOR 286.932;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|RCS[3]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.288;
+		LEVEL 0 FOR 300.888;
+		LEVEL 1 FOR 99.442;
+		LEVEL 0 FOR 50.356;
+		LEVEL 1 FOR 50.135;
+		LEVEL 0 FOR 149.865;
+		LEVEL 1 FOR 50.135;
+		LEVEL 0 FOR 292.891;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|RSS[0]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.304;
+		LEVEL 0 FOR 250.721;
+		LEVEL 1 FOR 50.297;
+		LEVEL 0 FOR 49.703;
+		LEVEL 1 FOR 50.172;
+		LEVEL 0 FOR 249.828;
+		LEVEL 1 FOR 50.297;
+		LEVEL 0 FOR 49.703;
+		LEVEL 1 FOR 50.172;
+		LEVEL 0 FOR 192.803;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|RSS[1]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.572;
+		LEVEL 0 FOR 300.904;
+		LEVEL 1 FOR 99.429;
+		LEVEL 0 FOR 50.399;
+		LEVEL 1 FOR 50.295;
+		LEVEL 0 FOR 49.705;
+		LEVEL 1 FOR 49.79;
+		LEVEL 0 FOR 50.21;
+		LEVEL 1 FOR 99.921;
+		LEVEL 0 FOR 242.775;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|RSS[2]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.654;
+		LEVEL 0 FOR 501.052;
+		LEVEL 1 FOR 99.637;
+		LEVEL 0 FOR 100.607;
+		LEVEL 1 FOR 49.525;
+		LEVEL 0 FOR 242.525;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|RSS[3]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.126;
+		LEVEL 0 FOR 750.846;
+		LEVEL 1 FOR 50.017;
+		LEVEL 0 FOR 193.011;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|B0~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.796;
+		LEVEL 1 FOR 50.107;
+		LEVEL 0 FOR 49.893;
+		LEVEL 1 FOR 50.107;
+		LEVEL 0 FOR 49.893;
+		LEVEL 1 FOR 50.107;
+		LEVEL 0 FOR 49.893;
+		LEVEL 1 FOR 50.107;
+		LEVEL 0 FOR 49.893;
+		LEVEL 1 FOR 50.107;
+		LEVEL 0 FOR 49.893;
+		LEVEL 1 FOR 50.107;
+		LEVEL 0 FOR 49.893;
+		LEVEL 1 FOR 50.107;
+		LEVEL 0 FOR 49.893;
+		LEVEL 1 FOR 50.107;
+		LEVEL 0 FOR 199.097;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|A0~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 200.786;
+		LEVEL 1 FOR 200.107;
+		LEVEL 0 FOR 199.893;
+		LEVEL 1 FOR 200.107;
+		LEVEL 0 FOR 199.107;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[0]~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 3.676;
+		LEVEL 0 FOR 200.53;
+		LEVEL 1 FOR 0.488;
+		LEVEL 0 FOR 49.638;
+		LEVEL 1 FOR 50.362;
+		LEVEL 0 FOR 49.638;
+		LEVEL 1 FOR 50.237;
+		LEVEL 0 FOR 199.637;
+		LEVEL 1 FOR 0.488;
+		LEVEL 0 FOR 49.638;
+		LEVEL 1 FOR 50.362;
+		LEVEL 0 FOR 49.638;
+		LEVEL 1 FOR 50.237;
+		LEVEL 0 FOR 195.431;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|B1~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100.776;
+		LEVEL 1 FOR 100.107;
+		LEVEL 0 FOR 99.893;
+		LEVEL 1 FOR 100.107;
+		LEVEL 0 FOR 99.893;
+		LEVEL 1 FOR 100.107;
+		LEVEL 0 FOR 99.893;
+		LEVEL 1 FOR 100.107;
+		LEVEL 0 FOR 199.117;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|A1~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.756;
+		LEVEL 1 FOR 400.107;
+		LEVEL 0 FOR 199.137;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[1]~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 3.668;
+		LEVEL 0 FOR 200.528;
+		LEVEL 1 FOR 0.653;
+		LEVEL 0 FOR 99.644;
+		LEVEL 1 FOR 99.508;
+		LEVEL 0 FOR 50.32;
+		LEVEL 1 FOR 50.374;
+		LEVEL 0 FOR 49.626;
+		LEVEL 1 FOR 49.869;
+		LEVEL 0 FOR 50.131;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 245.679;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[2]~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 3.673;
+		LEVEL 0 FOR 200.528;
+		LEVEL 1 FOR 0.651;
+		LEVEL 0 FOR 99.641;
+		LEVEL 1 FOR 99.508;
+		LEVEL 0 FOR 50.32;
+		LEVEL 1 FOR 99.989;
+		LEVEL 0 FOR 100.011;
+		LEVEL 1 FOR 50.172;
+		LEVEL 0 FOR 295.507;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[3]~3_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 3.673;
+		LEVEL 0 FOR 200.531;
+		LEVEL 1 FOR 0.646;
+		LEVEL 0 FOR 99.644;
+		LEVEL 1 FOR 99.509;
+		LEVEL 0 FOR 50.289;
+		LEVEL 1 FOR 50.202;
+		LEVEL 0 FOR 149.798;
+		LEVEL 1 FOR 50.202;
+		LEVEL 0 FOR 295.506;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|Mult1|mult_core|result[2]~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 3.5;
+		LEVEL 0 FOR 500.951;
+		LEVEL 1 FOR 99.738;
+		LEVEL 0 FOR 100.506;
+		LEVEL 1 FOR 49.626;
+		LEVEL 0 FOR 245.679;
+	}
+}
+
+TRANSITION_LIST("Multiplicadores_vlg_vec_tst|i1|Mult1|mult_core|result[3]~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 3.505;
+		LEVEL 0 FOR 400.515;
+		LEVEL 1 FOR 0.549;
+		LEVEL 0 FOR 199.634;
+		LEVEL 1 FOR 0.46;
+		LEVEL 0 FOR 149.617;
+		LEVEL 1 FOR 50.088;
+		LEVEL 0 FOR 195.632;
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|A0";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|A1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|B0";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|B1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|RCS[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|RCS[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|RCS[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|RCS[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|RSS[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 8;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|RSS[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 9;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|RSS[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 10;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|RSS[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 11;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|sampler";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 12;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|gnd";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 13;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|vcc";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 14;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|unknown";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 15;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|devclrn";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 16;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|devpor";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 17;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|devoe";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 18;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|RCS[0]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 19;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|RCS[1]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 20;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|RCS[2]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 21;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|RCS[3]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 22;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|RSS[0]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 23;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|RSS[1]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 24;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|RSS[2]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 25;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|RSS[3]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 26;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|B0~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 27;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|A0~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 28;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[0]~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 29;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|B1~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 30;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|A1~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 31;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[1]~1_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 32;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[2]~2_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 33;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|Mult0|mult_core|result[3]~3_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 34;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|Mult1|mult_core|result[2]~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 35;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplicadores_vlg_vec_tst|i1|Mult1|mult_core|result[3]~1_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 36;
+	TREE_LEVEL = 0;
+}
+;

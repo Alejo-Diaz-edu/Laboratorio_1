@@ -1,0 +1,284 @@
+Simulator report for I2E
+Thu Oct 30 16:50:54 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 107 nodes    ;
+; Simulation Coverage         ;      94.83 % ;
+; Total Number of Transitions ; 896          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
++-----------------------------+--------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                               ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                             ; Default Value ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                          ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                 ;               ;
+; Vector input source                                                                        ; C:/altera/13.0sp1/Laboratorio1/Parte F/Waveform.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                  ; On            ;
+; Check outputs                                                                              ; Off                                                 ; Off           ;
+; Report simulation coverage                                                                 ; On                                                  ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                  ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                  ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                  ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                 ; Off           ;
+; Detect glitches                                                                            ; Off                                                 ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                 ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                 ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                 ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                 ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                  ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                          ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                 ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                 ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport                                           ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport                                           ; Transport     ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      94.83 % ;
+; Total nodes checked                                 ; 107          ;
+; Total output ports checked                          ; 116          ;
+; Total output ports with complete 1/0-value coverage ; 110          ;
+; Total output ports with no 1/0-value coverage       ; 1            ;
+; Total output ports with no 1-value coverage         ; 4            ;
+; Total output ports with no 0-value coverage         ; 3            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                                              ;
++-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                                         ; Output Port Name                                                                                                                  ; Output Port Type ;
++-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+------------------+
+; |I2E_completo|ACK                                                                                                                 ; |I2E_completo|ACK                                                                                                                 ; pin_out          ;
+; |I2E_completo|SCL                                                                                                                 ; |I2E_completo|SCL                                                                                                                 ; out              ;
+; |I2E_completo|fin_dir                                                                                                             ; |I2E_completo|fin_dir                                                                                                             ; pin_out          ;
+; |I2E_completo|inst2                                                                                                               ; |I2E_completo|inst2                                                                                                               ; out0             ;
+; |I2E_completo|soy                                                                                                                 ; |I2E_completo|soy                                                                                                                 ; pin_out          ;
+; |I2E_completo|SDA                                                                                                                 ; |I2E_completo|SDA                                                                                                                 ; out              ;
+; |I2E_completo|SDA                                                                                                                 ; |I2E_completo|SDA~result                                                                                                          ; pin_out          ;
+; |I2E_completo|SDA~0                                                                                                               ; |I2E_completo|SDA~0                                                                                                               ; out0             ;
+; |I2E_completo|inst3                                                                                                               ; |I2E_completo|inst3                                                                                                               ; out0             ;
+; |I2E_completo|Hab_Dir                                                                                                             ; |I2E_completo|Hab_Dir                                                                                                             ; pin_out          ;
+; |I2E_completo|DATO[6]                                                                                                             ; |I2E_completo|DATO[6]                                                                                                             ; pin_out          ;
+; |I2E_completo|DATO[5]                                                                                                             ; |I2E_completo|DATO[5]                                                                                                             ; pin_out          ;
+; |I2E_completo|DATO[4]                                                                                                             ; |I2E_completo|DATO[4]                                                                                                             ; pin_out          ;
+; |I2E_completo|DATO[3]                                                                                                             ; |I2E_completo|DATO[3]                                                                                                             ; pin_out          ;
+; |I2E_completo|DATO[2]                                                                                                             ; |I2E_completo|DATO[2]                                                                                                             ; pin_out          ;
+; |I2E_completo|DATO[1]                                                                                                             ; |I2E_completo|DATO[1]                                                                                                             ; pin_out          ;
+; |I2E_completo|DATO[0]                                                                                                             ; |I2E_completo|DATO[0]                                                                                                             ; pin_out          ;
+; |I2E_completo|DIRECCION[6]                                                                                                        ; |I2E_completo|DIRECCION[6]                                                                                                        ; pin_out          ;
+; |I2E_completo|DIRECCION[5]                                                                                                        ; |I2E_completo|DIRECCION[5]                                                                                                        ; pin_out          ;
+; |I2E_completo|DIRECCION[4]                                                                                                        ; |I2E_completo|DIRECCION[4]                                                                                                        ; pin_out          ;
+; |I2E_completo|DIRECCION[3]                                                                                                        ; |I2E_completo|DIRECCION[3]                                                                                                        ; pin_out          ;
+; |I2E_completo|DIRECCION[2]                                                                                                        ; |I2E_completo|DIRECCION[2]                                                                                                        ; pin_out          ;
+; |I2E_completo|DIRECCION[1]                                                                                                        ; |I2E_completo|DIRECCION[1]                                                                                                        ; pin_out          ;
+; |I2E_completo|DIRECCION[0]                                                                                                        ; |I2E_completo|DIRECCION[0]                                                                                                        ; pin_out          ;
+; |I2E_completo|cycloneiii_io_ibuf:bidireccional_ibuf                                                                               ; |I2E_completo|cycloneiii_io_ibuf:bidireccional_ibuf~OUT                                                                           ; o                ;
+; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[6]                                             ; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[6]                                             ; regout           ;
+; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[5]                                             ; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[5]                                             ; regout           ;
+; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[4]                                             ; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[4]                                             ; regout           ;
+; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[3]                                             ; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[3]                                             ; regout           ;
+; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[2]                                             ; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[2]                                             ; regout           ;
+; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[1]                                             ; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[1]                                             ; regout           ;
+; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[0]                                             ; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[0]                                             ; regout           ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cout_actual                        ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cout_actual                        ; out0             ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita0                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita0                 ; combout          ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita0                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita0~COUT            ; cout             ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita1                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita1                 ; combout          ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita1                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita1~COUT            ; cout             ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita2                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita2                 ; combout          ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita2                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita2~COUT            ; cout             ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita3                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita3                 ; combout          ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita3                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita3~COUT            ; cout             ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[3]                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[3]                 ; regout           ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[2]                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[2]                 ; regout           ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[1]                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[1]                 ; regout           ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[0]                 ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[0]                 ; regout           ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|aneb_result_wire[0] ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|aneb_result_wire[0] ; out0             ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|data_wire[1]        ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|data_wire[1]        ; out0             ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|data_wire[0]        ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|data_wire[0]        ; out0             ;
+; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[6]                                                 ; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[6]                                                 ; regout           ;
+; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[5]                                                 ; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[5]                                                 ; regout           ;
+; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[4]                                                 ; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[4]                                                 ; regout           ;
+; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[3]                                                 ; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[3]                                                 ; regout           ;
+; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[2]                                                 ; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[2]                                                 ; regout           ;
+; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[1]                                                 ; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[1]                                                 ; regout           ;
+; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[0]                                                 ; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component|dffs[0]                                                 ; regout           ;
+; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|_~0                                   ; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|_~0                                   ; out0             ;
+; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|aneb_result_wire[0]~0                 ; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|aneb_result_wire[0]~0                 ; out0             ;
+; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|aneb_result_wire[0]                   ; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|aneb_result_wire[0]                   ; out0             ;
+; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|data_wire[2]                          ; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|data_wire[2]                          ; out0             ;
+; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|data_wire[1]                          ; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|data_wire[1]                          ; out0             ;
+; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|data_wire[0]                          ; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated|data_wire[0]                          ; out0             ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cout_actual                        ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cout_actual                        ; out0             ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita0                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita0                 ; combout          ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita0                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita0~COUT            ; cout             ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita1                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita1                 ; combout          ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita1                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita1~COUT            ; cout             ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita2                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita2                 ; combout          ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita2                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita2~COUT            ; cout             ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita3                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita3                 ; combout          ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita3                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_comb_bita3~COUT            ; cout             ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[3]                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[3]                 ; regout           ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[2]                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[2]                 ; regout           ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[1]                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[1]                 ; regout           ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[0]                 ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[0]                 ; regout           ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|aneb_result_wire[0] ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|aneb_result_wire[0] ; out0             ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|data_wire[1]        ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|data_wire[1]        ; out0             ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|data_wire[0]        ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1|data_wire[0]        ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|process_1~0                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|process_1~0                                                                              ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|process_1~1                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|process_1~1                                                                              ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|reg_fstate~0                                                                             ; |I2E_completo|I2E_Maquina_De_Estado:inst|reg_fstate~0                                                                             ; out              ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|reg_fstate~1                                                                             ; |I2E_completo|I2E_Maquina_De_Estado:inst|reg_fstate~1                                                                             ; out              ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.RoW                                                                               ; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.RoW                                                                               ; regout           ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.ACK_State                                                                         ; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.ACK_State                                                                         ; regout           ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.Guarda_Dat                                                                        ; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.Guarda_Dat                                                                        ; regout           ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|reg_fstate~2                                                                             ; |I2E_completo|I2E_Maquina_De_Estado:inst|reg_fstate~2                                                                             ; out              ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.Guarda_dir                                                                        ; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.Guarda_dir                                                                        ; regout           ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.Idle                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.Idle                                                                              ; regout           ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate~0                                                                                 ; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate~0                                                                                 ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|WideOr0~0                                                                                ; |I2E_completo|I2E_Maquina_De_Estado:inst|WideOr0~0                                                                                ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector0~0                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector0~0                                                                              ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector0~1                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector0~1                                                                              ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|reg_fstate~5                                                                             ; |I2E_completo|I2E_Maquina_De_Estado:inst|reg_fstate~5                                                                             ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.RoW~0                                                                             ; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate.RoW~0                                                                             ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|WideOr0~1                                                                                ; |I2E_completo|I2E_Maquina_De_Estado:inst|WideOr0~1                                                                                ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate~4                                                                                 ; |I2E_completo|I2E_Maquina_De_Estado:inst|fstate~4                                                                                 ; out0             ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[3]~7               ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[3]~7               ; out              ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[2]~8               ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[2]~8               ; out              ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[1]~9               ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[1]~9               ; out              ;
+; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[0]~10              ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[0]~10              ; out              ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[3]~7               ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[3]~7               ; out              ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[2]~8               ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[2]~8               ; out              ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[1]~9               ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[1]~9               ; out              ;
+; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[0]~10              ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|counter_reg_bit[0]~10              ; out              ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector0~2                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector0~2                                                                              ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector0~3                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector0~3                                                                              ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector1~0                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector1~0                                                                              ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector1~1                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector1~1                                                                              ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector1~2                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector1~2                                                                              ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector2~0                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector2~0                                                                              ; out0             ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector2~3                                                                              ; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector2~3                                                                              ; out0             ;
++-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                         ;
++---------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                             ; Output Port Name                                                                      ; Output Port Type ;
++---------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; |I2E_completo|UNO                                                                     ; |I2E_completo|UNO                                                                     ; out              ;
+; |I2E_completo|DATO[7]                                                                 ; |I2E_completo|DATO[7]                                                                 ; pin_out          ;
+; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[7] ; |I2E_completo|lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component|dffs[7] ; regout           ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector2~1                                  ; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector2~1                                  ; out0             ;
++---------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                       ;
++------------------------------------------------------+------------------------------------------------------+------------------+
+; Node Name                                            ; Output Port Name                                     ; Output Port Type ;
++------------------------------------------------------+------------------------------------------------------+------------------+
+; |I2E_completo|UNO                                    ; |I2E_completo|UNO                                    ; out              ;
+; |I2E_completo|cycloneiii_io_obuf:bidireccional       ; |I2E_completo|cycloneiii_io_obuf:bidireccional~OUT   ; o                ;
+; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector2~2 ; |I2E_completo|I2E_Maquina_De_Estado:inst|Selector2~2 ; out0             ;
++------------------------------------------------------+------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Thu Oct 30 16:50:53 2025
+Info: Command: quartus_sim --simulation_results_format=VWF I2E -c I2E
+Info (324025): Using vector source file "C:/altera/13.0sp1/Laboratorio1/Parte F/Waveform.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Warning (324031): Found logic contention at time 210.0 ns on bus node "|I2E_completo|SDA~0"
+    Info (324033): Node "SDA" has logic level of 0
+    Info (324033): Node "cycloneiii_io_obuf:bidireccional~OUT" has logic level of 1
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      94.83 %
+Info (328052): Number of transitions in simulation is 896
+Info (324045): Vector file I2E.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4445 megabytes
+    Info: Processing ended: Thu Oct 30 16:50:54 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

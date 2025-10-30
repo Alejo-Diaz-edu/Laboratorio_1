@@ -63,7 +63,7 @@ SIGNAL R3 : STD_LOGIC := '0';
 SIGNAL CLK : STD_LOGIC := '0';
 SIGNAL SIGNO : STD_LOGIC := '0';
 
-CONSTANT CLK_PERIOD : time := 5ns;
+CONSTANT CLK_PERIOD : time := 10ns;
 
 BEGIN 
 	uut: MultiplicadorCS PORT MAP (

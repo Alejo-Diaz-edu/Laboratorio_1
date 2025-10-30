@@ -43,7 +43,6 @@ ENTITY lpm_compare0 IS
 	PORT
 	(
 		dataa		: IN STD_LOGIC_VECTOR (6 DOWNTO 0);
-		datab		: IN STD_LOGIC_VECTOR (6 DOWNTO 0);
 		aeb		: OUT STD_LOGIC 
 	);
 END lpm_compare0;
@@ -52,11 +51,14 @@ END lpm_compare0;
 ARCHITECTURE SYN OF lpm_compare0 IS
 
 	SIGNAL sub_wire0	: STD_LOGIC ;
+	SIGNAL sub_wire1_bv	: BIT_VECTOR (6 DOWNTO 0);
+	SIGNAL sub_wire1	: STD_LOGIC_VECTOR (6 DOWNTO 0);
 
 
 
 	COMPONENT lpm_compare
 	GENERIC (
+		lpm_hint		: STRING;
 		lpm_representation		: STRING;
 		lpm_type		: STRING;
 		lpm_width		: NATURAL
@@ -69,17 +71,20 @@ ARCHITECTURE SYN OF lpm_compare0 IS
 	END COMPONENT;
 
 BEGIN
+	sub_wire1_bv(6 DOWNTO 0) <= "0100011";
+	sub_wire1    <= To_stdlogicvector(sub_wire1_bv);
 	aeb    <= sub_wire0;
 
 	LPM_COMPARE_component : LPM_COMPARE
 	GENERIC MAP (
+		lpm_hint => "ONE_INPUT_IS_CONSTANT=YES",
 		lpm_representation => "UNSIGNED",
 		lpm_type => "LPM_COMPARE",
 		lpm_width => 7
 	)
 	PORT MAP (
 		dataa => dataa,
-		datab => datab,
+		datab => sub_wire1,
 		aeb => sub_wire0
 	);
 
@@ -97,30 +102,30 @@ END SYN;
 -- Retrieval info: PRIVATE: AltB NUMERIC "0"
 -- Retrieval info: PRIVATE: AneB NUMERIC "0"
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
--- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "0"
+-- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "1"
 -- Retrieval info: PRIVATE: Latency NUMERIC "0"
--- Retrieval info: PRIVATE: PortBValue NUMERIC "0"
+-- Retrieval info: PRIVATE: PortBValue NUMERIC "35"
 -- Retrieval info: PRIVATE: Radix NUMERIC "2"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: SignedCompare NUMERIC "0"
 -- Retrieval info: PRIVATE: aclr NUMERIC "0"
 -- Retrieval info: PRIVATE: clken NUMERIC "0"
--- Retrieval info: PRIVATE: isPortBConstant NUMERIC "0"
+-- Retrieval info: PRIVATE: isPortBConstant NUMERIC "1"
 -- Retrieval info: PRIVATE: nBit NUMERIC "7"
 -- Retrieval info: PRIVATE: new_diagram STRING "1"
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
+-- Retrieval info: CONSTANT: LPM_HINT STRING "ONE_INPUT_IS_CONSTANT=YES"
 -- Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "UNSIGNED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COMPARE"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "7"
 -- Retrieval info: USED_PORT: aeb 0 0 0 0 OUTPUT NODEFVAL "aeb"
 -- Retrieval info: USED_PORT: dataa 0 0 7 0 INPUT NODEFVAL "dataa[6..0]"
--- Retrieval info: USED_PORT: datab 0 0 7 0 INPUT NODEFVAL "datab[6..0]"
 -- Retrieval info: CONNECT: @dataa 0 0 7 0 dataa 0 0 7 0
--- Retrieval info: CONNECT: @datab 0 0 7 0 datab 0 0 7 0
+-- Retrieval info: CONNECT: @datab 0 0 7 0 35 0 0 7 0
 -- Retrieval info: CONNECT: aeb 0 0 0 0 @aeb 0 0 0 0
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.cmp TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.bsf TRUE FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0.bsf TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare0_inst.vhd FALSE
 -- Retrieval info: LIB_FILE: lpm

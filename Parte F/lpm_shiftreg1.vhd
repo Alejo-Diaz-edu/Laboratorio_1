@@ -73,7 +73,7 @@ BEGIN
 
 	LPM_SHIFTREG_component : LPM_SHIFTREG
 	GENERIC MAP (
-		lpm_direction => "RIGHT",
+		lpm_direction => "LEFT",
 		lpm_type => "LPM_SHIFTREG",
 		lpm_width => 8
 	)
@@ -96,7 +96,7 @@ END SYN;
 -- Retrieval info: PRIVATE: ASET_ALL1 NUMERIC "1"
 -- Retrieval info: PRIVATE: CLK_EN NUMERIC "0"
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
--- Retrieval info: PRIVATE: LeftShift NUMERIC "0"
+-- Retrieval info: PRIVATE: LeftShift NUMERIC "1"
 -- Retrieval info: PRIVATE: ParallelDataInput NUMERIC "0"
 -- Retrieval info: PRIVATE: Q_OUT NUMERIC "1"
 -- Retrieval info: PRIVATE: SCLR NUMERIC "0"
@@ -109,7 +109,7 @@ END SYN;
 -- Retrieval info: PRIVATE: nBit NUMERIC "8"
 -- Retrieval info: PRIVATE: new_diagram STRING "1"
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
--- Retrieval info: CONSTANT: LPM_DIRECTION STRING "RIGHT"
+-- Retrieval info: CONSTANT: LPM_DIRECTION STRING "LEFT"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_SHIFTREG"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "8"
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL "clock"
@@ -121,6 +121,6 @@ END SYN;
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_shiftreg1.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_shiftreg1.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_shiftreg1.cmp TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_shiftreg1.bsf TRUE FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_shiftreg1.bsf TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_shiftreg1_inst.vhd FALSE
 -- Retrieval info: LIB_FILE: lpm

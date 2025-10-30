@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MultiConSigno
-Thu Oct 23 17:03:45 2025
+Wed Oct 29 12:27:22 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -46,7 +46,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 23 17:03:45 2025           ;
+; Analysis & Synthesis Status        ; Successful - Wed Oct 29 12:27:22 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; MultiConSigno                                   ;
 ; Top-level Entity Name              ; MultiplicadorCS                                 ;
@@ -291,7 +291,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Oct 23 17:03:43 2025
+    Info: Processing started: Wed Oct 29 12:27:20 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MultiConSigno -c MultiConSigno
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file multiplicadorcs.vhd
@@ -321,7 +321,7 @@ Info (21057): Implemented 19 device resources after synthesis - the final resour
     Info (21061): Implemented 9 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 8 warnings
     Info: Peak virtual memory: 4644 megabytes
-    Info: Processing ended: Thu Oct 23 17:03:45 2025
+    Info: Processing ended: Wed Oct 29 12:27:22 2025
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

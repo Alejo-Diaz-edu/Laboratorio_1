@@ -45,7 +45,7 @@ applicable agreement for further details.
 		(line (pt 144 48)(pt 128 48)(line_width 3))
 	)
 	(drawing
-		(text "right shift" (rect 78 14 205 42)(font "Arial" ))
+		(text "left shift" (rect 86 14 213 42)(font "Arial" ))
 		(line (pt 16 16)(pt 16 64))
 		(line (pt 16 16)(pt 128 16))
 		(line (pt 16 64)(pt 128 64))

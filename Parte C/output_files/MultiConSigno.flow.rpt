@@ -1,5 +1,5 @@
 Flow report for MultiConSigno
-Thu Oct 23 17:04:18 2025
+Wed Oct 29 12:27:52 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Oct 23 17:04:18 2025           ;
+; Flow Status                        ; Successful - Wed Oct 29 12:27:52 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; MultiConSigno                                   ;
 ; Top-level Entity Name              ; MultiplicadorCS                                 ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/23/2025 17:03:43 ;
+; Start date & time ; 10/29/2025 12:27:21 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; MultiConSigno       ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-----------------+--------------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name     ; Section Id         ;
 +--------------------------------------+---------------------------------------+---------------+-----------------+--------------------+
-; COMPILER_SIGNATURE_ID                ; 40350030082740.176124982309716        ; --            ; --              ; --                 ;
+; COMPILER_SIGNATURE_ID                ; 40350030082740.176175164021100        ; --            ; --              ; --                 ;
 ; EDA_DESIGN_INSTANCE_NAME             ; uut                                   ; --            ; --              ; MultiplicadorCS_tb ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; MultiplicadorCS_tb                    ; --            ; --              ; eda_simulation     ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                  ; --            ; --              ; eda_simulation     ;
@@ -102,11 +102,11 @@ applicable agreement for further details.
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4637 MB             ; 00:00:02                           ;
-; Fitter                    ; 00:00:17     ; 1.0                     ; 5056 MB             ; 00:00:17                           ;
-; Assembler                 ; 00:00:06     ; 1.0                     ; 4555 MB             ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4643 MB             ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4524 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:30     ; --                      ; --                  ; 00:00:29                           ;
+; Fitter                    ; 00:00:18     ; 1.0                     ; 5056 MB             ; 00:00:18                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 4555 MB             ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4643 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4523 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:28     ; --                      ; --                  ; 00:00:28                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

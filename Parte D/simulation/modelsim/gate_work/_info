@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\Laboratorio1\Parte D\simulation\modelsim
+vMultiplicadores
+!i10b 1
+!s100 P@>;k>8hKkEF0LXzFPDGN1
+IcZ2JYiNaBG:dD=Nl0;`Rm0
+V;gBiQZYL1M@ULf6[m4hKf1
+Z1 dC:\altera\13.0sp1\Laboratorio1\Parte D\simulation\modelsim
+w1761756685
+8ParteD.vo
+FParteD.vo
+L0 31
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1761757045.696000
+!s107 ParteD.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ParteD.vo|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+n@multiplicadores

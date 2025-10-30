@@ -1,0 +1,36 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY Multiplicadores IS 
+	PORT
+	(
+	--INPUTS
+		A1 :  IN  STD_LOGIC;
+		A0 :  IN  STD_LOGIC;
+		B1 :  IN  STD_LOGIC;
+		B0 :  IN  STD_LOGIC;
+		
+	--OUTPUTS
+		RCS: OUT SIGNED(3 downto 0);
+		RSS: OUT UNSIGNED(3 downto 0);
+	);
+END MultiplicadorCS;
+
+ARCHITECTURE Multiplicador OF Multiplicadores IS 
+
+SIGNAL ACS: SIGNED;
+SIGNAL ASS: UNSIGNED;
+SIGNAL BCS: SIGNED;
+SIGNAL BSS: UNSIGNED;
+
+BEGIN
+	ACS <= A1 & A0;
+	ASS <= A1 & A0;
+	BCS <= B1 & B0;
+	BSS <= B1 & B0;
+
+	RCS <= ACS * BCS;
+	RSS <= ASS * ACS;
+	
+END ARCHITECTURE;
+	

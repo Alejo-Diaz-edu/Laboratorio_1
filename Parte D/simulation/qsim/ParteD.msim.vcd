@@ -1,0 +1,484 @@
+$comment
+	File created using the following command:
+		vcd file ParteD.msim.vcd -direction
+$end
+$date
+	Wed Oct 29 13:57:49 2025
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Multiplicadores_vlg_vec_tst $end
+$var reg 1 ! A0 $end
+$var reg 1 " A1 $end
+$var reg 1 # B0 $end
+$var reg 1 $ B1 $end
+$var wire 1 % RCS [3] $end
+$var wire 1 & RCS [2] $end
+$var wire 1 ' RCS [1] $end
+$var wire 1 ( RCS [0] $end
+$var wire 1 ) RSS [3] $end
+$var wire 1 * RSS [2] $end
+$var wire 1 + RSS [1] $end
+$var wire 1 , RSS [0] $end
+$var wire 1 - sampler $end
+$scope module i1 $end
+$var wire 1 . gnd $end
+$var wire 1 / vcc $end
+$var wire 1 0 unknown $end
+$var tri1 1 1 devclrn $end
+$var tri1 1 2 devpor $end
+$var tri1 1 3 devoe $end
+$var wire 1 4 RCS[0]~output_o $end
+$var wire 1 5 RCS[1]~output_o $end
+$var wire 1 6 RCS[2]~output_o $end
+$var wire 1 7 RCS[3]~output_o $end
+$var wire 1 8 RSS[0]~output_o $end
+$var wire 1 9 RSS[1]~output_o $end
+$var wire 1 : RSS[2]~output_o $end
+$var wire 1 ; RSS[3]~output_o $end
+$var wire 1 < B0~input_o $end
+$var wire 1 = A0~input_o $end
+$var wire 1 > Mult0|mult_core|result[0]~0_combout $end
+$var wire 1 ? B1~input_o $end
+$var wire 1 @ A1~input_o $end
+$var wire 1 A Mult0|mult_core|result[1]~1_combout $end
+$var wire 1 B Mult0|mult_core|result[2]~2_combout $end
+$var wire 1 C Mult0|mult_core|result[3]~3_combout $end
+$var wire 1 D Mult1|mult_core|result[2]~0_combout $end
+$var wire 1 E Mult1|mult_core|result[3]~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+x(
+x'
+x&
+x%
+x,
+x+
+x*
+x)
+x-
+0.
+1/
+x0
+11
+12
+13
+x4
+x5
+x6
+x7
+x8
+x9
+x:
+x;
+0<
+0=
+x>
+0?
+0@
+xA
+xB
+xC
+xD
+xE
+$end
+#3500
+0D
+#3505
+0E
+#3668
+0A
+#3673
+0B
+0C
+#3676
+0>
+#6126
+0;
+0)
+#6288
+07
+0%
+#6294
+04
+0(
+#6304
+08
+0,
+#6572
+09
+05
+0+
+0'
+#6654
+0:
+0*
+#12248
+06
+0&
+#50000
+1#
+0-
+#50796
+1<
+#100000
+1$
+0#
+1-
+#100776
+1?
+#100903
+0<
+#150000
+1#
+0-
+#150796
+1<
+#200000
+1!
+0$
+0#
+1-
+#200786
+1=
+#200883
+0?
+#200903
+0<
+#204196
+1A
+#204201
+1B
+#204204
+1C
+#204206
+1>
+#204694
+0>
+#204849
+0A
+#204850
+0C
+#204852
+0B
+#250000
+1#
+0-
+#250796
+1<
+#254332
+1>
+#257015
+14
+1(
+#257025
+18
+1,
+#300000
+1$
+0#
+1-
+#300776
+1?
+#300903
+0<
+#304493
+1A
+1B
+#304494
+1C
+#304694
+0>
+#307176
+17
+1%
+#307312
+04
+0(
+#307322
+08
+0,
+#307476
+19
+15
+1+
+1'
+#313073
+16
+1&
+#350000
+1#
+0-
+#350796
+1<
+#354332
+1>
+#357015
+14
+1(
+#357025
+18
+1,
+#400000
+1"
+0!
+0$
+0#
+1-
+#400756
+1@
+#400883
+0?
+#400893
+0=
+#400903
+0<
+#404001
+0A
+0B
+#404003
+0C
+#404020
+1E
+#404569
+0>
+0E
+#406618
+07
+0%
+#406905
+09
+05
+0+
+0'
+#407187
+04
+0(
+#407197
+08
+0,
+#412576
+06
+0&
+#450000
+1#
+0-
+#450796
+1<
+#454292
+1C
+#454321
+1B
+1A
+#456974
+17
+1%
+#457304
+19
+15
+1+
+1'
+#462901
+16
+1&
+#500000
+1$
+0#
+1-
+#500776
+1?
+#500903
+0<
+#504451
+1D
+#504494
+0C
+#504695
+0A
+#507109
+07
+0%
+#507599
+09
+05
+0+
+0'
+#507706
+1:
+1*
+#550000
+1#
+0-
+#550796
+1<
+#554310
+0B
+#554321
+1A
+#557304
+19
+15
+1+
+1'
+#562885
+06
+0&
+#600000
+1!
+0$
+0#
+1-
+#600786
+1=
+#600883
+0?
+#600903
+0<
+#604189
+0D
+#604190
+0A
+#604203
+1E
+#604206
+1>
+#604663
+0E
+#604694
+0>
+#607094
+09
+05
+0+
+0'
+#607343
+0:
+0*
+#650000
+1#
+0-
+#650796
+1<
+#654292
+1C
+#654321
+1B
+1A
+#654332
+1>
+#656974
+17
+1%
+#657015
+14
+1(
+#657025
+18
+1,
+#657304
+19
+15
+1+
+1'
+#662901
+16
+1&
+#700000
+1$
+0#
+1-
+#700776
+1?
+#700903
+0<
+#704493
+0B
+#704494
+0C
+#704694
+0>
+#704695
+1D
+#707109
+07
+0%
+#707312
+04
+0(
+#707322
+08
+0,
+#707950
+1:
+1*
+#713068
+06
+0&
+#750000
+1#
+0-
+#750796
+1<
+#754280
+1E
+#754321
+0A
+0D
+#754332
+1>
+#756972
+1;
+1)
+#757015
+14
+1(
+#757025
+18
+1,
+#757225
+09
+05
+0+
+0'
+#757475
+0:
+0*
+#800000
+0"
+0!
+0$
+0#
+1-
+#800863
+0@
+#800883
+0?
+#800893
+0=
+#800903
+0<
+#804368
+0E
+#804569
+0>
+#806989
+0;
+0)
+#807187
+04
+0(
+#807197
+08
+0,
+#1000000

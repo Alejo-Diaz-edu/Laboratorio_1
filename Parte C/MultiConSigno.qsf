@@ -62,10 +62,6 @@ set_location_assignment PIN_AD19 -to SIGNO
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/altera/13.0sp1/Laboratorio1/Parte C/Waveform.vwf"
-set_global_assignment -name VHDL_FILE MultiplicadorCS.vhd
-set_global_assignment -name VHDL_FILE FullAdder.vhd
-set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
-set_global_assignment -name VHDL_FILE MultiplicadorCS_tb.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
@@ -78,3 +74,8 @@ set_global_assignment -name EDA_DESIGN_INSTANCE_NAME uut -section_id Multiplicad
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME MultiplicadorCS_tb -section_id MultiplicadorCS_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE MultiplicadorCS_tb.vhd -section_id MultiplicadorCS_tb
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name BDF_FILE MultiplicadorCS.bdf
+set_global_assignment -name VHDL_FILE MultiplicadorCS.vhd
+set_global_assignment -name VHDL_FILE FullAdder.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name VHDL_FILE MultiplicadorCS_tb.vhd

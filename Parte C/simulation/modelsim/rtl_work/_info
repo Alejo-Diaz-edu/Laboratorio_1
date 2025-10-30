@@ -15,7 +15,7 @@ L4
 VR_3Y[:m2PlHZf^]`No;VD2
 Z7 OV;C;10.1d;51
 31
-Z8 !s108 1761249477.606000
+Z8 !s108 1761750583.060000
 Z9 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.0sp1/Laboratorio1/Parte C/FullAdder.vhd|
 Z10 !s107 C:/altera/13.0sp1/Laboratorio1/Parte C/FullAdder.vhd|
 Z11 o-93 -work work -O0
@@ -50,7 +50,7 @@ L24
 Vn57GzUAT;e@B=ARZ>CR6f0
 R7
 31
-Z16 !s108 1761249477.056000
+Z16 !s108 1761750582.941000
 Z17 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.vhd|
 Z18 !s107 C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS.vhd|
 R11
@@ -74,7 +74,7 @@ R12
 !s100 MDdjMN<JhPc[[H@ia=CKR2
 !i10b 1
 Emultiplicadorcs_tb
-Z19 w1761248955
+Z19 w1761750482
 R2
 R3
 R4
@@ -87,7 +87,7 @@ VJEemQJ8`07bD@?>nOBnH10
 R7
 31
 !i10b 1
-Z22 !s108 1761249477.765000
+Z22 !s108 1761750583.173000
 Z23 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd|
 Z24 !s107 C:/altera/13.0sp1/Laboratorio1/Parte C/MultiplicadorCS_tb.vhd|
 R11
@@ -98,8 +98,8 @@ R3
 DEx4 work 18 multiplicadorcs_tb 0 22 JEemQJ8`07bD@?>nOBnH10
 l68
 L28
-V06Ad]OU0hX>KFU48Mh`S?2
-!s100 `M^=2BfeWY_`m[@d9Ee>42
+V@niPLoadhd2^e_cMiD:VZ1
+!s100 LKUUW?W`1;8eFH6jca9=P1
 R7
 31
 !i10b 1

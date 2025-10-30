@@ -31,13 +31,6 @@ applicable agreement for further details.
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
-		(pt 0 64)
-		(input)
-		(text "datab[6..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
-		(text "datab[6..0]" (rect 20 56 80 71)(font "Arial" (font_size 8)))
-		(line (pt 0 64)(pt 16 64)(line_width 3))
-	)
-	(port
 		(pt 128 56)
 		(output)
 		(text "aeb" (rect 0 0 21 14)(font "Arial" (font_size 8)))
@@ -45,6 +38,7 @@ applicable agreement for further details.
 		(line (pt 128 56)(pt 112 56))
 	)
 	(drawing
+		(text "datab[]=35" (rect 20 56 100 127)(font "Arial" (font_size 8)))
 		(text "compare" (rect 63 25 173 64)(font "Arial" ))
 		(line (pt 16 16)(pt 16 80))
 		(line (pt 16 16)(pt 112 16))

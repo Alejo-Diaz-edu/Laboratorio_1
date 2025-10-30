@@ -312,7 +312,57 @@ SIGNAL("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generat
 	PARENT = "";
 }
 
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|data_wire[0]~0_combout")
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|fstate.Guarda_dir~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|fstate.Idle~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|Selector1~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|Selector2~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|Selector2~1_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -332,7 +382,7 @@ SIGNAL("I2E_completo_vlg_vec_tst|i1|inst2~combout")
 	PARENT = "";
 }
 
-SIGNAL("I2E_completo_vlg_vec_tst|i1|Direccion[6]~input_o")
+SIGNAL("I2E_completo_vlg_vec_tst|i1|Direccion[4]~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -352,7 +402,7 @@ SIGNAL("I2E_completo_vlg_vec_tst|i1|Direccion[5]~input_o")
 	PARENT = "";
 }
 
-SIGNAL("I2E_completo_vlg_vec_tst|i1|Direccion[1]~input_o")
+SIGNAL("I2E_completo_vlg_vec_tst|i1|Direccion[2]~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -502,126 +552,6 @@ SIGNAL("I2E_completo_vlg_vec_tst|i1|SCL~inputclkctrl_outclk")
 	PARENT = "";
 }
 
-SIGNAL("I2E_completo_vlg_vec_tst|i1|bidireccional_ibuf~o")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|Direccion[2]~input_o")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[6]~feeder_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[5]~feeder_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[3]~feeder_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|process_1~1_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|Direccion[4]~input_o")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|process_1~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|Direccion[3]~input_o")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[1]~feeder_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|process_1~2_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|process_1~3_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
 SIGNAL("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -692,6 +622,196 @@ SIGNAL("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generat
 	PARENT = "";
 }
 
+SIGNAL("I2E_completo_vlg_vec_tst|i1|Direccion[6]~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|bidireccional_ibuf~o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[6]~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[5]~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[4]~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|Direccion[1]~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[3]~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[2]~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[1]~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|data_wire[0]~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|Direccion[3]~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[0]~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~2_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~3_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|reg_fstate~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|fstate.RoW~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|fstate.ACK_State~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|fstate.ACK_State~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
 SIGNAL("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -752,97 +872,7 @@ SIGNAL("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generat
 	PARENT = "";
 }
 
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|Selector1~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|Selector1~1_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|fstate.Idle~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|Selector5~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|fstate.Guarda_dir~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|Selector2~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|fstate.RoW~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|fstate.ACK_State~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|fstate.ACK_State~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|Selector4~0_combout")
+SIGNAL("I2E_completo_vlg_vec_tst|i1|inst|Selector0~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -943,6 +973,16 @@ SIGNAL("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[2]
 }
 
 SIGNAL("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[1]~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[0]~feeder_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1300,11 +1340,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|ACK")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 32.5;
+		LEVEL 0 FOR 142.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 180.0;
-		LEVEL 1 FOR 15.006;
-		LEVEL 0 FOR 762.494;
+		LEVEL 0 FOR 847.5;
 	}
 }
 
@@ -1313,12 +1351,11 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|DATO[7]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 42.5;
+		LEVEL 0 FOR 152.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 135.006;
-		LEVEL X FOR 762.494;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 777.5;
 	}
 }
 
@@ -1327,11 +1364,10 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|DATO[6]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 52.5;
+		LEVEL 0 FOR 162.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 887.5;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 777.5;
 	}
 }
 
@@ -1340,11 +1376,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|DATO[5]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 62.5;
+		LEVEL 0 FOR 172.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 135.006;
-		LEVEL 0 FOR 762.494;
+		LEVEL 0 FOR 817.5;
 	}
 }
 
@@ -1353,10 +1387,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|DATO[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 72.5;
+		LEVEL 0 FOR 182.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 887.5;
+		LEVEL 0 FOR 807.5;
 	}
 }
 
@@ -1365,10 +1398,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|DATO[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 82.5;
+		LEVEL 0 FOR 192.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 145.006;
-		LEVEL 1 FOR 762.494;
+		LEVEL 0 FOR 797.5;
 	}
 }
 
@@ -1377,9 +1409,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|DATO[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 92.5;
+		LEVEL 0 FOR 202.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 897.5;
+		LEVEL 0 FOR 787.5;
 	}
 }
 
@@ -1388,9 +1420,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|DATO[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 102.5;
+		LEVEL 0 FOR 212.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 887.5;
+		LEVEL 0 FOR 777.5;
 	}
 }
 
@@ -1399,9 +1431,8 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|DATO[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 112.5;
-		LEVEL 1 FOR 125.006;
-		LEVEL 0 FOR 762.494;
+		LEVEL 0 FOR 222.5;
+		LEVEL 1 FOR 777.5;
 	}
 }
 
@@ -1411,20 +1442,18 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|SDA")
 	{
 		REPEAT = 1;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 12.5;
-		LEVEL X FOR 7.5;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 30.0;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL X FOR 20.0;
-		LEVEL 0 FOR 10.0;
+		LEVEL 0 FOR 2.5;
+		LEVEL X FOR 7.5;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 2.5;
-		LEVEL X FOR 15.006;
-		LEVEL 0 FOR 2.494;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 90.0;
 		LEVEL 0 FOR 670.0;
 	}
@@ -1549,23 +1578,114 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|aut
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 42.5;
+		LEVEL 0 FOR 152.5;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 135.006;
-		LEVEL 1 FOR 762.494;
+		LEVEL 0 FOR 787.5;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|data_wire[0]~0_combout")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|fstate.Guarda_dir~q")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 202.5;
+		LEVEL 0 FOR 32.5;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 787.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 125.006;
+		LEVEL 1 FOR 762.494;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 52.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 887.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|fstate.Idle~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 32.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 15.006;
+		LEVEL 1 FOR 762.494;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|Selector1~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 12.5;
+		LEVEL 0 FOR 17.5;
+		LEVEL 1 FOR 2.5;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 27.5;
+		LEVEL 1 FOR 2.5;
+		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 15.006;
+		LEVEL 0 FOR 762.494;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|Selector2~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 22.5;
+		LEVEL 1 FOR 7.5;
+		LEVEL 0 FOR 32.5;
+		LEVEL 1 FOR 17.5;
+		LEVEL 0 FOR 112.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|Selector2~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 12.5;
+		LEVEL 0 FOR 17.5;
+		LEVEL 1 FOR 2.5;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 27.5;
+		LEVEL 1 FOR 112.5;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.006;
+		LEVEL 0 FOR 762.494;
 	}
 }
 
@@ -1574,19 +1694,21 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst2~combout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 142.5;
+		LEVEL 0 FOR 32.5;
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 15.0;
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 15.0;
 		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 15.0;
+		LEVEL 0 FOR 25.0;
 		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 792.5;
+		LEVEL 0 FOR 130.006;
+		LEVEL 1 FOR 92.494;
+		LEVEL 0 FOR 670.0;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|Direccion[6]~input_o")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|Direccion[4]~input_o")
 {
 	NODE
 	{
@@ -1604,12 +1726,12 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|Direccion[5]~input_o")
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|Direccion[1]~input_o")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|Direccion[2]~input_o")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -1627,15 +1749,17 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst2~clkctrl_outclk")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 142.5;
+		LEVEL 0 FOR 32.5;
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 15.0;
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 15.0;
 		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 15.0;
+		LEVEL 0 FOR 25.0;
 		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 792.5;
+		LEVEL 0 FOR 130.006;
+		LEVEL 1 FOR 92.494;
+		LEVEL 0 FOR 670.0;
 	}
 }
 
@@ -1644,11 +1768,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|bidireccional~o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 32.5;
+		LEVEL Z FOR 142.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 180.0;
-		LEVEL 1 FOR 15.006;
-		LEVEL Z FOR 762.494;
+		LEVEL Z FOR 847.5;
 	}
 }
 
@@ -1657,11 +1779,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|ACK~output_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 32.5;
+		LEVEL 0 FOR 142.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 180.0;
-		LEVEL 1 FOR 15.006;
-		LEVEL 0 FOR 762.494;
+		LEVEL 0 FOR 847.5;
 	}
 }
 
@@ -1670,12 +1790,11 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|DATO[7]~output_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 42.5;
+		LEVEL 0 FOR 152.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 135.006;
-		LEVEL X FOR 762.494;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 777.5;
 	}
 }
 
@@ -1684,11 +1803,10 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|DATO[6]~output_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 52.5;
+		LEVEL 0 FOR 162.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 887.5;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 777.5;
 	}
 }
 
@@ -1697,11 +1815,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|DATO[5]~output_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 62.5;
+		LEVEL 0 FOR 172.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 135.006;
-		LEVEL 0 FOR 762.494;
+		LEVEL 0 FOR 817.5;
 	}
 }
 
@@ -1710,10 +1826,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|DATO[4]~output_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 72.5;
+		LEVEL 0 FOR 182.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 887.5;
+		LEVEL 0 FOR 807.5;
 	}
 }
 
@@ -1722,10 +1837,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|DATO[3]~output_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 82.5;
+		LEVEL 0 FOR 192.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 145.006;
-		LEVEL 1 FOR 762.494;
+		LEVEL 0 FOR 797.5;
 	}
 }
 
@@ -1734,9 +1848,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|DATO[2]~output_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 92.5;
+		LEVEL 0 FOR 202.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 897.5;
+		LEVEL 0 FOR 787.5;
 	}
 }
 
@@ -1745,9 +1859,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|DATO[1]~output_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 102.5;
+		LEVEL 0 FOR 212.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 887.5;
+		LEVEL 0 FOR 777.5;
 	}
 }
 
@@ -1756,9 +1870,8 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|DATO[0]~output_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 112.5;
-		LEVEL 1 FOR 125.006;
-		LEVEL 0 FOR 762.494;
+		LEVEL 0 FOR 222.5;
+		LEVEL 1 FOR 777.5;
 	}
 }
 
@@ -1858,37 +1971,131 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|SCL~inputclkctrl_outclk")
 	}
 }
 
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 32.5;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 125.006;
+		LEVEL 0 FOR 762.494;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 32.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 125.006;
+		LEVEL 1 FOR 762.494;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 32.5;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 135.006;
+		LEVEL 1 FOR 762.494;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 52.5;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 887.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 52.5;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 897.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 102.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 887.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 102.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 887.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|Direccion[6]~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
 TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|bidireccional_ibuf~o")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 12.5;
-		LEVEL X FOR 7.5;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 30.0;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL X FOR 20.0;
-		LEVEL 0 FOR 10.0;
+		LEVEL 0 FOR 2.5;
+		LEVEL X FOR 7.5;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 2.5;
-		LEVEL X FOR 15.006;
-		LEVEL 0 FOR 2.494;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 90.0;
 		LEVEL 0 FOR 670.0;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|Direccion[2]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -1898,20 +2105,18 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|df
 	{
 		REPEAT = 1;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 12.5;
-		LEVEL X FOR 7.5;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 30.0;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL X FOR 20.0;
-		LEVEL 0 FOR 10.0;
+		LEVEL 0 FOR 2.5;
+		LEVEL X FOR 7.5;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 2.5;
-		LEVEL X FOR 15.006;
-		LEVEL 0 FOR 2.494;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 90.0;
 		LEVEL 0 FOR 670.0;
 	}
@@ -1922,10 +2127,50 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|df
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 152.5;
+		LEVEL 0 FOR 42.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 787.5;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 897.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[4]~feeder_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 52.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 887.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 42.5;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 125.006;
+		LEVEL 1 FOR 762.494;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|Direccion[1]~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
 	}
 }
 
@@ -1934,43 +2179,45 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|df
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 172.5;
+		LEVEL 0 FOR 62.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 817.5;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 125.006;
+		LEVEL 0 FOR 762.494;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|process_1~1_combout")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[2]~feeder_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 162.5;
+		LEVEL 0 FOR 72.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 155.006;
+		LEVEL 1 FOR 762.494;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[1]~feeder_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 82.5;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 897.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|data_wire[0]~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 102.5;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 827.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|Direccion[4]~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|process_1~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 152.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 787.5;
+		LEVEL 1 FOR 887.5;
 	}
 }
 
@@ -1983,190 +2230,38 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|Direccion[3]~input_o")
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[1]~feeder_combout")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[0]~feeder_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 192.5;
+		LEVEL 0 FOR 102.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 797.5;
+		LEVEL 0 FOR 887.5;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|process_1~2_combout")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~2_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 212.5;
-		LEVEL 0 FOR 787.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|process_1~3_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 142.5;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 787.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 142.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 787.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 142.5;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 797.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 162.5;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 787.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 162.5;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 797.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 202.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 787.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 202.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 787.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 42.5;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
+		LEVEL 0 FOR 112.5;
 		LEVEL 1 FOR 125.006;
 		LEVEL 0 FOR 762.494;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~3_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 42.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 125.006;
-		LEVEL 1 FOR 762.494;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 62.5;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 887.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 62.5;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 897.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|reg_fstate~1_combout")
 {
 	NODE
 	{
@@ -2174,115 +2269,6 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|aut
 		LEVEL 0 FOR 102.5;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 887.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 102.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 887.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|Selector1~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 102.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 7.5;
-		LEVEL X FOR 20.0;
-		LEVEL 0 FOR 12.5;
-		LEVEL 1 FOR 7.5;
-		LEVEL 0 FOR 840.0;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|Selector1~1_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 102.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 7.5;
-		LEVEL X FOR 20.0;
-		LEVEL 0 FOR 2.5;
-		LEVEL 1 FOR 17.5;
-		LEVEL 0 FOR 2.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 807.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|fstate.Idle~q")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 112.5;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 797.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|Selector5~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 112.5;
-		LEVEL 1 FOR 7.5;
-		LEVEL X FOR 20.0;
-		LEVEL 1 FOR 2.5;
-		LEVEL 0 FOR 17.5;
-		LEVEL 1 FOR 2.5;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 797.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|fstate.Guarda_dir~q")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 142.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 787.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|Selector2~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 202.5;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 787.5;
 	}
 }
 
@@ -2291,22 +2277,20 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|fstate.RoW~q")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 32.5;
-		LEVEL 1 FOR 180.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 777.5;
+		LEVEL 0 FOR 112.5;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 857.5;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|fstate.ACK_State~0_combout")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|fstate.ACK_State~feeder_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 32.5;
-		LEVEL 0 FOR 180.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 777.5;
+		LEVEL 0 FOR 112.5;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 857.5;
 	}
 }
 
@@ -2315,23 +2299,100 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|fstate.ACK_State~q")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 32.5;
+		LEVEL 0 FOR 142.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 180.0;
-		LEVEL 1 FOR 15.006;
-		LEVEL 0 FOR 762.494;
+		LEVEL 0 FOR 847.5;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|Selector4~0_combout")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 32.5;
-		LEVEL 1 FOR 70.0;
-		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 152.5;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 152.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 172.5;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 172.5;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 787.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 212.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 212.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|Selector0~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 142.5;
+		LEVEL 1 FOR 70.0;
+		LEVEL 0 FOR 787.5;
 	}
 }
 
@@ -2340,10 +2401,9 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst|fstate.Guarda_Dat~q")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 42.5;
+		LEVEL 0 FOR 152.5;
 		LEVEL 1 FOR 70.0;
-		LEVEL 0 FOR 125.006;
-		LEVEL 1 FOR 762.494;
+		LEVEL 0 FOR 777.5;
 	}
 }
 
@@ -2352,7 +2412,7 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst3~combout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 42.5;
+		LEVEL 0 FOR 152.5;
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL 1 FOR 5.0;
@@ -2366,9 +2426,7 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst3~combout")
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 130.006;
-		LEVEL 1 FOR 92.494;
-		LEVEL 0 FOR 670.0;
+		LEVEL 0 FOR 782.5;
 	}
 }
 
@@ -2377,7 +2435,7 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst3~clkctrl_outclk")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 42.5;
+		LEVEL 0 FOR 152.5;
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL 1 FOR 5.0;
@@ -2391,9 +2449,7 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|inst3~clkctrl_outclk")
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 130.006;
-		LEVEL 1 FOR 92.494;
-		LEVEL 0 FOR 670.0;
+		LEVEL 0 FOR 782.5;
 	}
 }
 
@@ -2403,20 +2459,18 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_componen
 	{
 		REPEAT = 1;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 12.5;
-		LEVEL X FOR 7.5;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 30.0;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL X FOR 20.0;
-		LEVEL 0 FOR 10.0;
+		LEVEL 0 FOR 2.5;
+		LEVEL X FOR 7.5;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 2.5;
-		LEVEL X FOR 15.006;
-		LEVEL 0 FOR 2.494;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 90.0;
 		LEVEL 0 FOR 670.0;
 	}
@@ -2427,12 +2481,11 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_componen
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 42.5;
+		LEVEL 0 FOR 152.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 135.006;
-		LEVEL X FOR 762.494;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 777.5;
 	}
 }
 
@@ -2441,169 +2494,14 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_componen
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 52.5;
+		LEVEL 0 FOR 162.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 887.5;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 777.5;
 	}
 }
 
 TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[4]~feeder_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 62.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 135.006;
-		LEVEL 0 FOR 762.494;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[3]~feeder_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 72.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 887.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[2]~feeder_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 82.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 145.006;
-		LEVEL 1 FOR 762.494;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[1]~feeder_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 92.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 897.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 72.5;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 887.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 52.5;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 887.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 42.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 125.006;
-		LEVEL 1 FOR 762.494;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 172.5;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 787.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 152.5;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 787.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 142.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 787.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 152.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 787.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 162.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 827.5;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[4]")
 {
 	NODE
 	{
@@ -2614,7 +2512,7 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|df
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[3]")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[3]~feeder_combout")
 {
 	NODE
 	{
@@ -2625,7 +2523,7 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|df
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[2]")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[2]~feeder_combout")
 {
 	NODE
 	{
@@ -2636,7 +2534,7 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|df
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[1]")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[1]~feeder_combout")
 {
 	NODE
 	{
@@ -2647,17 +2545,101 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|df
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[0]")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[0]~feeder_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 212.5;
-		LEVEL 1 FOR 787.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 777.5;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[7]")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 182.5;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 162.5;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 152.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 62.5;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 887.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 42.5;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 887.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 32.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 125.006;
+		LEVEL 1 FOR 762.494;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[6]")
 {
 	NODE
 	{
@@ -2666,73 +2648,60 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_componen
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 30.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 135.006;
-		LEVEL X FOR 762.494;
+		LEVEL 0 FOR 897.5;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[6]")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[5]")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 52.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 887.5;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[5]")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[4]")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 62.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 135.006;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 125.006;
 		LEVEL 0 FOR 762.494;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[4]")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[3]")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 72.5;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 887.5;
+		LEVEL 0 FOR 155.006;
+		LEVEL 1 FOR 762.494;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[3]")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[2]")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 82.5;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 145.006;
-		LEVEL 1 FOR 762.494;
-	}
-}
-
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 92.5;
-		LEVEL 1 FOR 10.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 897.5;
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[1]")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[1]")
 {
 	NODE
 	{
@@ -2743,7 +2712,7 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_componen
 	}
 }
 
-TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[0]")
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[0]")
 {
 	NODE
 	{
@@ -2751,6 +2720,96 @@ TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_componen
 		LEVEL 0 FOR 112.5;
 		LEVEL 1 FOR 125.006;
 		LEVEL 0 FOR 762.494;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 152.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 162.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 172.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 817.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 182.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 807.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 192.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 797.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 202.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 787.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 212.5;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 777.5;
+	}
+}
+
+TRANSITION_LIST("I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 222.5;
+		LEVEL 1 FOR 777.5;
 	}
 }
 
@@ -3016,7 +3075,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|data_wire[0]~0_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.Guarda_dir~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 28;
@@ -3025,7 +3084,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst2~combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 29;
@@ -3034,7 +3093,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[6]~input_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.Idle~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 30;
@@ -3043,7 +3102,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[5]~input_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|Selector1~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 31;
@@ -3052,7 +3111,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[1]~input_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|Selector2~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 32;
@@ -3061,7 +3120,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[0]~input_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|Selector2~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 33;
@@ -3070,7 +3129,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst2~clkctrl_outclk";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst2~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 34;
@@ -3079,7 +3138,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|bidireccional~o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[4]~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 35;
@@ -3088,7 +3147,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|ACK~output_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[5]~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 36;
@@ -3097,7 +3156,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[7]~output_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[2]~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 37;
@@ -3106,7 +3165,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[6]~output_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[0]~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 38;
@@ -3115,7 +3174,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[5]~output_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst2~clkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 39;
@@ -3124,7 +3183,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[4]~output_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|bidireccional~o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 40;
@@ -3133,7 +3192,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[3]~output_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|ACK~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 41;
@@ -3142,7 +3201,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[2]~output_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[7]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 42;
@@ -3151,7 +3210,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[1]~output_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[6]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 43;
@@ -3160,7 +3219,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[0]~output_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[5]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 44;
@@ -3169,7 +3228,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|SCL~input_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[4]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 45;
@@ -3178,7 +3237,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|SCL~inputclkctrl_outclk";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[3]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 46;
@@ -3187,7 +3246,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|bidireccional_ibuf~o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 47;
@@ -3196,7 +3255,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[2]~input_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 48;
@@ -3205,7 +3264,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[6]~feeder_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|DATO[0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 49;
@@ -3214,7 +3273,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[5]~feeder_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|SCL~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 50;
@@ -3223,7 +3282,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[3]~feeder_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|SCL~inputclkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 51;
@@ -3232,7 +3291,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|process_1~1_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 52;
@@ -3241,7 +3300,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[4]~input_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 53;
@@ -3250,7 +3309,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|process_1~0_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 54;
@@ -3259,7 +3318,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[3]~input_o";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 55;
@@ -3268,7 +3327,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[1]~feeder_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 56;
@@ -3277,7 +3336,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|process_1~2_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 57;
@@ -3286,7 +3345,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|process_1~3_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 58;
@@ -3295,7 +3354,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[6]~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 59;
@@ -3304,7 +3363,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|bidireccional_ibuf~o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 60;
@@ -3313,7 +3372,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[6]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 61;
@@ -3322,7 +3381,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[5]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 62;
@@ -3331,7 +3390,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[4]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 63;
@@ -3340,7 +3399,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 64;
@@ -3349,7 +3408,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_comb_bita2~0_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[1]~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 65;
@@ -3358,7 +3417,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[3]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 66;
@@ -3367,7 +3426,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[2]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 67;
@@ -3376,7 +3435,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[1]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 68;
@@ -3385,7 +3444,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|data_wire[0]~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 69;
@@ -3394,7 +3453,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|Direccion[3]~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 70;
@@ -3403,7 +3462,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~0_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[0]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 71;
@@ -3412,7 +3471,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|Selector1~0_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 72;
@@ -3421,7 +3480,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|Selector1~1_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst28|LPM_COMPARE_component|auto_generated|aneb_result_wire[0]~3_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 73;
@@ -3430,7 +3489,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.Idle~q";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|reg_fstate~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 74;
@@ -3439,7 +3498,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|Selector5~0_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.RoW~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 75;
@@ -3448,7 +3507,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.Guarda_dir~q";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.ACK_State~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 76;
@@ -3457,7 +3516,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|Selector2~0_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.ACK_State~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 77;
@@ -3466,7 +3525,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.RoW~q";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 78;
@@ -3475,7 +3534,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.ACK_State~0_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita0~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 79;
@@ -3484,7 +3543,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.ACK_State~q";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita1~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 80;
@@ -3493,7 +3552,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|Selector4~0_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 81;
@@ -3502,7 +3561,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.Guarda_Dat~q";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~COUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 82;
@@ -3511,7 +3570,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst3~combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_comb_bita2~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 83;
@@ -3520,7 +3579,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst3~clkctrl_outclk";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|Selector0~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 84;
@@ -3529,7 +3588,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[7]~feeder_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst|fstate.Guarda_Dat~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 85;
@@ -3538,7 +3597,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[6]~feeder_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst3~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 86;
@@ -3547,7 +3606,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[5]~feeder_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|inst3~clkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 87;
@@ -3556,7 +3615,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[4]~feeder_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[7]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 88;
@@ -3565,7 +3624,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[3]~feeder_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[6]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 89;
@@ -3574,7 +3633,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[2]~feeder_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[5]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 90;
@@ -3583,7 +3642,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[1]~feeder_combout";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[4]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 91;
@@ -3592,7 +3651,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[3]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 92;
@@ -3601,7 +3660,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[2]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 93;
@@ -3610,7 +3669,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[1]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 94;
@@ -3619,7 +3678,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[0]~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 95;
@@ -3628,7 +3687,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 96;
@@ -3637,7 +3696,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 97;
@@ -3646,7 +3705,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[6]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador8|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 98;
@@ -3655,7 +3714,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[5]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 99;
@@ -3664,7 +3723,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[4]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 100;
@@ -3673,7 +3732,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[3]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|contador7|LPM_COUNTER_component|auto_generated|counter_reg_bit[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 101;
@@ -3682,7 +3741,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[2]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[6]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 102;
@@ -3691,7 +3750,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[1]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 103;
@@ -3700,7 +3759,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[0]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 104;
@@ -3709,7 +3768,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[7]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 105;
@@ -3718,7 +3777,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[6]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 106;
@@ -3727,7 +3786,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[5]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 107;
@@ -3736,7 +3795,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[4]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro7|LPM_SHIFTREG_component|dffs[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 108;
@@ -3745,7 +3804,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[3]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[7]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 109;
@@ -3754,7 +3813,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[2]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[6]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 110;
@@ -3763,7 +3822,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[1]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 111;
@@ -3772,10 +3831,46 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[0]";
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 112;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 113;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 114;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 115;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "I2E_completo_vlg_vec_tst|i1|registro8bits|LPM_SHIFTREG_component|dffs[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 116;
 	TREE_LEVEL = 0;
 }
 ;
