@@ -1,5 +1,5 @@
 Flow report for I2E
-Thu Oct 30 16:25:32 2025
+Fri Oct 31 12:23:11 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,14 +40,14 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Oct 30 16:25:32 2025           ;
+; Flow Status                        ; Successful - Fri Oct 31 12:23:11 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; I2E                                             ;
 ; Top-level Entity Name              ; I2E_completo                                    ;
 ; Family                             ; Cyclone III                                     ;
 ; Device                             ; EP3C120F780C7                                   ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 41 / 119,088 ( < 1 % )                          ;
+; Total logic elements               ; 42 / 119,088 ( < 1 % )                          ;
 ;     Total combinational functions  ; 26 / 119,088 ( < 1 % )                          ;
 ;     Dedicated logic registers      ; 28 / 119,088 ( < 1 % )                          ;
 ; Total registers                    ; 28                                              ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/30/2025 16:24:54 ;
+; Start date & time ; 10/31/2025 12:21:07 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; I2E                 ;
 +-------------------+---------------------+
@@ -75,16 +75,20 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+--------------+----------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name  ; Section Id     ;
 +-------------------------------------+---------------------------------------+---------------+--------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 40350030082740.176185229316884        ; --            ; --           ; --             ;
+; COMPILER_SIGNATURE_ID               ; 189559953652462.176192406719052       ; --            ; --           ; --             ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                                    ; --            ; --           ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                           ; --            ; --           ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)             ; <None>        ; --           ; --             ;
 ; IP_TOOL_NAME                        ; LPM_SHIFTREG                          ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                           ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --           ; --             ;
 ; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --           ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --           ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --           ; --             ;
 ; MISC_FILE                           ; lpm_shiftreg1.bsf                     ; --            ; --           ; --             ;
 ; MISC_FILE                           ; lpm_shiftreg1.cmp                     ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_counter2.bsf                      ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_counter2.cmp                      ; --            ; --           ; --             ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                  ; --            ; --           ; --             ;
 ; PARTITION_COLOR                     ; 16764057                              ; --            ; I2E_completo ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; I2E_completo ; Top            ;
@@ -101,12 +105,14 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4639 MB             ; 00:00:03                           ;
-; Fitter                    ; 00:00:21     ; 1.0                     ; 5049 MB             ; 00:00:20                           ;
-; Assembler                 ; 00:00:07     ; 1.0                     ; 4563 MB             ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4642 MB             ; 00:00:04                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4518 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:34     ; --                      ; --                  ; 00:00:34                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4652 MB             ; 00:00:03                           ;
+; Fitter                    ; 00:00:19     ; 1.0                     ; 5062 MB             ; 00:00:18                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 4574 MB             ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4658 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4530 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4526 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4542 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:29     ; --                      ; --                  ; 00:00:32                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -115,11 +121,13 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; Michu            ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; Michu            ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; Michu            ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; Michu            ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; Michu            ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; DESKTOP-GB4A5RP  ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; DESKTOP-GB4A5RP  ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; DESKTOP-GB4A5RP  ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-GB4A5RP  ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-GB4A5RP  ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-GB4A5RP  ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-GB4A5RP  ; Windows 7 ; 6.1        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -131,6 +139,8 @@ quartus_fit --read_settings_files=off --write_settings_files=off I2E -c I2E
 quartus_asm --read_settings_files=off --write_settings_files=off I2E -c I2E
 quartus_sta I2E -c I2E
 quartus_eda --read_settings_files=off --write_settings_files=off I2E -c I2E
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog I2E -c I2E --vector_source="C:/altera/13.0sp1/Laboratorio_1/Parte F/Waveform.vwf" --testbench_file=./simulation/qsim/I2E.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog I2E -c I2E
 
 
 

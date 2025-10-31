@@ -1,0 +1,13 @@
+# do LUCESTEMPLATE.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module four_state_moore_state_machine
+# 
+# Top level modules:
+# 	four_state_moore_state_machine
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module four_state_moore_state_machine_vlg_sample_tst
+# ** Error: LUCESTEMPLATE.vt(31): near "input": syntax error, unexpected input, expecting ')'
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./LUCESTEMPLATE.do line 4

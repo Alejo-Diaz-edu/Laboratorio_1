@@ -4,8 +4,12 @@ entity I2E_completo is
     port(
         ACK             : out    vl_logic;
         SCL             : in     vl_logic;
+        fin_dir         : out    vl_logic;
+        soy             : out    vl_logic;
+        UNO             : in     vl_logic;
         SDA             : inout  vl_logic;
-        Direccion       : in     vl_logic_vector(6 downto 0);
-        DATO            : out    vl_logic_vector(7 downto 0)
+        Hab_Dir         : out    vl_logic;
+        DATO            : out    vl_logic_vector(7 downto 0);
+        DIRECCION       : out    vl_logic_vector(6 downto 0)
     );
 end I2E_completo;

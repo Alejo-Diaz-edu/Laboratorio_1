@@ -1,5 +1,5 @@
 Assembler report for I2E
-Thu Oct 30 16:25:26 2025
+Fri Oct 31 12:21:35 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/altera/13.0sp1/Laboratorio1/Parte F/output_files/I2E.sof
+  5. Assembler Device Options: C:/altera/13.0sp1/Laboratorio_1/Parte F/output_files/I2E.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Oct 30 16:25:26 2025 ;
+; Assembler Status      ; Successful - Fri Oct 31 12:21:35 2025 ;
 ; Revision Name         ; I2E                                   ;
 ; Top-level Entity Name ; I2E_completo                          ;
 ; Family                ; Cyclone III                           ;
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-------------------------------------------------------------+
-; Assembler Generated Files                                   ;
-+-------------------------------------------------------------+
-; File Name                                                   ;
-+-------------------------------------------------------------+
-; C:/altera/13.0sp1/Laboratorio1/Parte F/output_files/I2E.sof ;
-+-------------------------------------------------------------+
++--------------------------------------------------------------+
+; Assembler Generated Files                                    ;
++--------------------------------------------------------------+
+; File Name                                                    ;
++--------------------------------------------------------------+
+; C:/altera/13.0sp1/Laboratorio_1/Parte F/output_files/I2E.sof ;
++--------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/altera/13.0sp1/Laboratorio1/Parte F/output_files/I2E.sof ;
-+----------------+----------------------------------------------------------------------+
-; Option         ; Setting                                                              ;
-+----------------+----------------------------------------------------------------------+
-; Device         ; EP3C120F780C7                                                        ;
-; JTAG usercode  ; 0x0056844F                                                           ;
-; Checksum       ; 0x0056844F                                                           ;
-+----------------+----------------------------------------------------------------------+
++----------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/altera/13.0sp1/Laboratorio_1/Parte F/output_files/I2E.sof ;
++----------------+-----------------------------------------------------------------------+
+; Option         ; Setting                                                               ;
++----------------+-----------------------------------------------------------------------+
+; Device         ; EP3C120F780C7                                                         ;
+; JTAG usercode  ; 0x00568F16                                                            ;
+; Checksum       ; 0x00568F16                                                            ;
++----------------+-----------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Oct 30 16:25:19 2025
+    Info: Processing started: Fri Oct 31 12:21:30 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off I2E -c I2E
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4563 megabytes
-    Info: Processing ended: Thu Oct 30 16:25:26 2025
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:06
+    Info: Peak virtual memory: 4574 megabytes
+    Info: Processing ended: Fri Oct 31 12:21:35 2025
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
 
 

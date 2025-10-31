@@ -1,11 +1,11 @@
-Fitter Status : Successful - Thu Oct 30 16:25:18 2025
+Fitter Status : Successful - Fri Oct 31 12:21:29 2025
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : I2E
 Top-level Entity Name : I2E_completo
 Family : Cyclone III
 Device : EP3C120F780C7
 Timing Models : Final
-Total logic elements : 41 / 119,088 ( < 1 % )
+Total logic elements : 42 / 119,088 ( < 1 % )
     Total combinational functions : 26 / 119,088 ( < 1 % )
     Dedicated logic registers : 28 / 119,088 ( < 1 % )
 Total registers : 28

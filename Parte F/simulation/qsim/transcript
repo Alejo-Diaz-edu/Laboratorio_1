@@ -16,16 +16,16 @@
 # vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.I2E_completo_vlg_vec_tst 
 # Loading work.I2E_completo_vlg_vec_tst
 # Loading work.I2E_completo
-# Loading cycloneiii_ver.cycloneiii_lcell_comb
 # Loading altera_ver.dffeas
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading cycloneiii_ver.cycloneiii_io_obuf
 # Loading cycloneiii_ver.cycloneiii_io_ibuf
 # Loading cycloneiii_ver.cycloneiii_clkctrl
 # Loading cycloneiii_ver.cycloneiii_mux41
 # Loading cycloneiii_ver.cycloneiii_ena_reg
-# Loading cycloneiii_ver.cycloneiii_io_obuf
 # Loading work.I2E_completo_vlg_sample_tst
 # Loading work.I2E_completo_vlg_check_tst
 # Loading altera_ver.PRIM_GDFF_LOW
 # Simulation passed !
-# ** Note: $finish    : I2E.vt(325)
+# ** Note: $finish    : I2E.vt(540)
 #    Time: 1 us  Iteration: 0  Instance: /I2E_completo_vlg_vec_tst/tb_out

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for I2E
-Thu Oct 30 16:24:57 2025
+Fri Oct 31 12:21:10 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -19,7 +19,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  11. Parameter Settings for User Entity Instance: lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component
  12. Parameter Settings for User Entity Instance: lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component
  13. Parameter Settings for User Entity Instance: lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component
- 14. Parameter Settings for User Entity Instance: lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component
+ 14. Parameter Settings for User Entity Instance: lpm_counter2:inst1|lpm_counter:LPM_COUNTER_component
  15. Parameter Settings for User Entity Instance: lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component
  16. lpm_shiftreg Parameter Settings by Entity Instance
  17. Elapsed Time Per Partition
@@ -49,7 +49,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 30 16:24:57 2025           ;
+; Analysis & Synthesis Status        ; Successful - Fri Oct 31 12:21:10 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; I2E                                             ;
 ; Top-level Entity Name              ; I2E_completo                                    ;
@@ -169,10 +169,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                              ; Library ;
 +----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------+---------+
-; I2E_completo.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/altera/13.0sp1/Laboratorio1/Parte F/I2E_completo.bdf                   ;         ;
-; I2E_Maquina_De_Estado.vhd        ; yes             ; User VHDL File                     ; C:/altera/13.0sp1/Laboratorio1/Parte F/I2E_Maquina_De_Estado.vhd          ;         ;
-; lpm_shiftreg1.vhd                ; yes             ; User Wizard-Generated File         ; C:/altera/13.0sp1/Laboratorio1/Parte F/lpm_shiftreg1.vhd                  ;         ;
-; lpm_counter0.vhd                 ; yes             ; Auto-Found Wizard-Generated File   ; C:/altera/13.0sp1/Laboratorio1/Parte F/lpm_counter0.vhd                   ;         ;
+; I2E_completo.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/altera/13.0sp1/Laboratorio_1/Parte F/I2E_completo.bdf                  ;         ;
+; I2E_Maquina_De_Estado.vhd        ; yes             ; User VHDL File                     ; C:/altera/13.0sp1/Laboratorio_1/Parte F/I2E_Maquina_De_Estado.vhd         ;         ;
+; lpm_shiftreg1.vhd                ; yes             ; User Wizard-Generated File         ; C:/altera/13.0sp1/Laboratorio_1/Parte F/lpm_shiftreg1.vhd                 ;         ;
+; lpm_counter2.vhd                 ; yes             ; User Wizard-Generated File         ; C:/altera/13.0sp1/Laboratorio_1/Parte F/lpm_counter2.vhd                  ;         ;
+; lpm_counter0.vhd                 ; yes             ; Auto-Found Wizard-Generated File   ; C:/altera/13.0sp1/Laboratorio_1/Parte F/lpm_counter0.vhd                  ;         ;
 ; lpm_counter.tdf                  ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_counter.tdf         ;         ;
 ; lpm_constant.inc                 ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_constant.inc        ;         ;
 ; lpm_decode.inc                   ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc          ;         ;
@@ -183,15 +184,16 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; dffeea.inc                       ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/dffeea.inc              ;         ;
 ; alt_counter_stratix.inc          ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/alt_counter_stratix.inc ;         ;
 ; aglobal130.inc                   ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc          ;         ;
-; db/cntr_3hj.tdf                  ; yes             ; Auto-Generated Megafunction        ; C:/altera/13.0sp1/Laboratorio1/Parte F/db/cntr_3hj.tdf                    ;         ;
-; db/cmpr_hfc.tdf                  ; yes             ; Auto-Generated Megafunction        ; C:/altera/13.0sp1/Laboratorio1/Parte F/db/cmpr_hfc.tdf                    ;         ;
-; lpm_compare0.vhd                 ; yes             ; Auto-Found Wizard-Generated File   ; C:/altera/13.0sp1/Laboratorio1/Parte F/lpm_compare0.vhd                   ;         ;
+; db/cntr_2hj.tdf                  ; yes             ; Auto-Generated Megafunction        ; C:/altera/13.0sp1/Laboratorio_1/Parte F/db/cntr_2hj.tdf                   ;         ;
+; db/cmpr_hfc.tdf                  ; yes             ; Auto-Generated Megafunction        ; C:/altera/13.0sp1/Laboratorio_1/Parte F/db/cmpr_hfc.tdf                   ;         ;
+; lpm_compare0.vhd                 ; yes             ; Auto-Found Wizard-Generated File   ; C:/altera/13.0sp1/Laboratorio_1/Parte F/lpm_compare0.vhd                  ;         ;
 ; lpm_compare.tdf                  ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_compare.tdf         ;         ;
 ; comptree.inc                     ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/comptree.inc            ;         ;
 ; altshift.inc                     ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc            ;         ;
-; db/cmpr_saj.tdf                  ; yes             ; Auto-Generated Megafunction        ; C:/altera/13.0sp1/Laboratorio1/Parte F/db/cmpr_saj.tdf                    ;         ;
-; lpm_shiftreg0.vhd                ; yes             ; Auto-Found Wizard-Generated File   ; C:/altera/13.0sp1/Laboratorio1/Parte F/lpm_shiftreg0.vhd                  ;         ;
+; db/cmpr_saj.tdf                  ; yes             ; Auto-Generated Megafunction        ; C:/altera/13.0sp1/Laboratorio_1/Parte F/db/cmpr_saj.tdf                   ;         ;
+; lpm_shiftreg0.vhd                ; yes             ; Auto-Found Wizard-Generated File   ; C:/altera/13.0sp1/Laboratorio_1/Parte F/lpm_shiftreg0.vhd                 ;         ;
 ; lpm_shiftreg.tdf                 ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_shiftreg.tdf        ;         ;
+; db/cntr_3hj.tdf                  ; yes             ; Auto-Generated Megafunction        ; C:/altera/13.0sp1/Laboratorio_1/Parte F/db/cntr_3hj.tdf                   ;         ;
 +----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------+---------+
 
 
@@ -237,12 +239,12 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |cmpr_saj:auto_generated|          ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_compare0:inst28|lpm_compare:LPM_COMPARE_component|cmpr_saj:auto_generated                   ; work         ;
 ;    |lpm_counter0:contador7|                 ; 6 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter0:contador7                                                                          ; work         ;
 ;       |lpm_counter:LPM_COUNTER_component|   ; 6 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component                                        ; work         ;
-;          |cntr_3hj:auto_generated|          ; 6 (5)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated                ; work         ;
-;             |cmpr_hfc:cmpr1|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1 ; work         ;
-;    |lpm_counter0:contador8|                 ; 7 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter0:contador8                                                                          ; work         ;
-;       |lpm_counter:LPM_COUNTER_component|   ; 7 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component                                        ; work         ;
-;          |cntr_3hj:auto_generated|          ; 7 (6)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated                ; work         ;
-;             |cmpr_hfc:cmpr1|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1 ; work         ;
+;          |cntr_2hj:auto_generated|          ; 6 (5)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_2hj:auto_generated                ; work         ;
+;             |cmpr_hfc:cmpr1|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_2hj:auto_generated|cmpr_hfc:cmpr1 ; work         ;
+;    |lpm_counter2:inst1|                     ; 7 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter2:inst1                                                                              ; work         ;
+;       |lpm_counter:LPM_COUNTER_component|   ; 7 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter2:inst1|lpm_counter:LPM_COUNTER_component                                            ; work         ;
+;          |cntr_3hj:auto_generated|          ; 7 (6)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter2:inst1|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated                    ; work         ;
+;             |cmpr_hfc:cmpr1|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_counter2:inst1|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1     ; work         ;
 ;    |lpm_shiftreg0:registro7|                ; 0 (0)             ; 7 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_shiftreg0:registro7                                                                         ; work         ;
 ;       |lpm_shiftreg:LPM_SHIFTREG_component| ; 0 (0)             ; 7 (7)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_shiftreg0:registro7|lpm_shiftreg:LPM_SHIFTREG_component                                     ; work         ;
 ;    |lpm_shiftreg1:registro8bits|            ; 0 (0)             ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |I2E_completo|lpm_shiftreg1:registro8bits                                                                     ; work         ;
@@ -251,17 +253,17 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                                ;
-+--------+--------------+---------+--------------+--------------+-------------------------------------------+----------------------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                           ; IP Include File                                          ;
-+--------+--------------+---------+--------------+--------------+-------------------------------------------+----------------------------------------------------------+
-; Altera ; LPM_COUNTER  ; N/A     ; N/A          ; N/A          ; |I2E_completo|lpm_counter0:contador7      ; C:/altera/13.0sp1/Laboratorio1/Parte F/lpm_counter0.vhd  ;
-; Altera ; LPM_COUNTER  ; N/A     ; N/A          ; N/A          ; |I2E_completo|lpm_counter0:contador8      ; C:/altera/13.0sp1/Laboratorio1/Parte F/lpm_counter0.vhd  ;
-; Altera ; LPM_COMPARE  ; N/A     ; N/A          ; N/A          ; |I2E_completo|lpm_compare0:inst28         ; C:/altera/13.0sp1/Laboratorio1/Parte F/lpm_compare0.vhd  ;
-; Altera ; LPM_SHIFTREG ; N/A     ; N/A          ; N/A          ; |I2E_completo|lpm_shiftreg0:registro7     ; C:/altera/13.0sp1/Laboratorio1/Parte F/lpm_shiftreg0.vhd ;
-; Altera ; LPM_SHIFTREG ; 13.0    ; N/A          ; N/A          ; |I2E_completo|lpm_shiftreg1:registro8bits ; C:/altera/13.0sp1/Laboratorio1/Parte F/lpm_shiftreg1.vhd ;
-+--------+--------------+---------+--------------+--------------+-------------------------------------------+----------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                 ;
++--------+--------------+---------+--------------+--------------+-------------------------------------------+-----------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                           ; IP Include File                                           ;
++--------+--------------+---------+--------------+--------------+-------------------------------------------+-----------------------------------------------------------+
+; Altera ; LPM_COUNTER  ; N/A     ; N/A          ; N/A          ; |I2E_completo|lpm_counter0:contador7      ; C:/altera/13.0sp1/Laboratorio_1/Parte F/lpm_counter0.vhd  ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |I2E_completo|lpm_counter2:inst1          ; C:/altera/13.0sp1/Laboratorio_1/Parte F/lpm_counter2.vhd  ;
+; Altera ; LPM_COMPARE  ; N/A     ; N/A          ; N/A          ; |I2E_completo|lpm_compare0:inst28         ; C:/altera/13.0sp1/Laboratorio_1/Parte F/lpm_compare0.vhd  ;
+; Altera ; LPM_SHIFTREG ; N/A     ; N/A          ; N/A          ; |I2E_completo|lpm_shiftreg0:registro7     ; C:/altera/13.0sp1/Laboratorio_1/Parte F/lpm_shiftreg0.vhd ;
+; Altera ; LPM_SHIFTREG ; 13.0    ; N/A          ; N/A          ; |I2E_completo|lpm_shiftreg1:registro8bits ; C:/altera/13.0sp1/Laboratorio_1/Parte F/lpm_shiftreg1.vhd ;
++--------+--------------+---------+--------------+--------------+-------------------------------------------+-----------------------------------------------------------+
 
 
 Encoding Type:  One-Hot
@@ -304,7 +306,7 @@ Encoding Type:  One-Hot
 ; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                 ;
 ; LPM_WIDTH              ; 4           ; Signed Integer                                                 ;
 ; LPM_DIRECTION          ; UP          ; Untyped                                                        ;
-; LPM_MODULUS            ; 9           ; Signed Integer                                                 ;
+; LPM_MODULUS            ; 8           ; Signed Integer                                                 ;
 ; LPM_AVALUE             ; UNUSED      ; Untyped                                                        ;
 ; LPM_SVALUE             ; UNUSED      ; Untyped                                                        ;
 ; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                        ;
@@ -315,7 +317,7 @@ Encoding Type:  One-Hot
 ; CARRY_CNT_EN           ; SMART       ; Untyped                                                        ;
 ; LABWIDE_SCLR           ; ON          ; Untyped                                                        ;
 ; USE_NEW_VERSION        ; TRUE        ; Untyped                                                        ;
-; CBXI_PARAMETER         ; cntr_3hj    ; Untyped                                                        ;
+; CBXI_PARAMETER         ; cntr_2hj    ; Untyped                                                        ;
 +------------------------+-------------+----------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -362,30 +364,30 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: lpm_counter0:contador8|lpm_counter:LPM_COUNTER_component ;
-+------------------------+-------------+----------------------------------------------------------------+
-; Parameter Name         ; Value       ; Type                                                           ;
-+------------------------+-------------+----------------------------------------------------------------+
-; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                     ;
-; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                   ;
-; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                   ;
-; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                 ;
-; LPM_WIDTH              ; 4           ; Signed Integer                                                 ;
-; LPM_DIRECTION          ; UP          ; Untyped                                                        ;
-; LPM_MODULUS            ; 9           ; Signed Integer                                                 ;
-; LPM_AVALUE             ; UNUSED      ; Untyped                                                        ;
-; LPM_SVALUE             ; UNUSED      ; Untyped                                                        ;
-; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                        ;
-; DEVICE_FAMILY          ; Cyclone III ; Untyped                                                        ;
-; CARRY_CHAIN            ; MANUAL      ; Untyped                                                        ;
-; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                             ;
-; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                             ;
-; CARRY_CNT_EN           ; SMART       ; Untyped                                                        ;
-; LABWIDE_SCLR           ; ON          ; Untyped                                                        ;
-; USE_NEW_VERSION        ; TRUE        ; Untyped                                                        ;
-; CBXI_PARAMETER         ; cntr_3hj    ; Untyped                                                        ;
-+------------------------+-------------+----------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lpm_counter2:inst1|lpm_counter:LPM_COUNTER_component ;
++------------------------+-------------+------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                       ;
++------------------------+-------------+------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                 ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                               ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                               ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                             ;
+; LPM_WIDTH              ; 4           ; Signed Integer                                             ;
+; LPM_DIRECTION          ; UP          ; Untyped                                                    ;
+; LPM_MODULUS            ; 9           ; Signed Integer                                             ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                                    ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                                    ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                    ;
+; DEVICE_FAMILY          ; Cyclone III ; Untyped                                                    ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                    ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                         ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                         ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                                    ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                                    ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                                    ;
+; CBXI_PARAMETER         ; cntr_3hj    ; Untyped                                                    ;
++------------------------+-------------+------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -437,7 +439,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Oct 30 16:24:53 2025
+    Info: Processing started: Fri Oct 31 12:21:07 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off I2E -c I2E
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file i2e_completo.bdf
@@ -448,6 +450,9 @@ Info (12021): Found 2 design units, including 1 entities, in source file i2e_maq
 Info (12021): Found 2 design units, including 1 entities, in source file lpm_shiftreg1.vhd
     Info (12022): Found design unit 1: lpm_shiftreg1-SYN
     Info (12023): Found entity 1: lpm_shiftreg1
+Info (12021): Found 2 design units, including 1 entities, in source file lpm_counter2.vhd
+    Info (12022): Found design unit 1: lpm_counter2-SYN
+    Info (12023): Found entity 1: lpm_counter2
 Info (12127): Elaborating entity "I2E_completo" for the top level hierarchy
 Info (12128): Elaborating entity "I2E_Maquina_De_Estado" for hierarchy "I2E_Maquina_De_Estado:inst"
 Warning (12125): Using design file lpm_counter0.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
@@ -458,16 +463,16 @@ Info (12128): Elaborating entity "lpm_counter" for hierarchy "lpm_counter0:conta
 Info (12130): Elaborated megafunction instantiation "lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component"
 Info (12133): Instantiated megafunction "lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component" with the following parameter:
     Info (12134): Parameter "lpm_direction" = "UP"
-    Info (12134): Parameter "lpm_modulus" = "9"
+    Info (12134): Parameter "lpm_modulus" = "8"
     Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
     Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
     Info (12134): Parameter "lpm_width" = "4"
-Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_3hj.tdf
-    Info (12023): Found entity 1: cntr_3hj
-Info (12128): Elaborating entity "cntr_3hj" for hierarchy "lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_2hj.tdf
+    Info (12023): Found entity 1: cntr_2hj
+Info (12128): Elaborating entity "cntr_2hj" for hierarchy "lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_2hj:auto_generated"
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_hfc.tdf
     Info (12023): Found entity 1: cmpr_hfc
-Info (12128): Elaborating entity "cmpr_hfc" for hierarchy "lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated|cmpr_hfc:cmpr1"
+Info (12128): Elaborating entity "cmpr_hfc" for hierarchy "lpm_counter0:contador7|lpm_counter:LPM_COUNTER_component|cntr_2hj:auto_generated|cmpr_hfc:cmpr1"
 Warning (12125): Using design file lpm_compare0.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: lpm_compare0-SYN
     Info (12023): Found entity 1: lpm_compare0
@@ -492,6 +497,18 @@ Info (12133): Instantiated megafunction "lpm_shiftreg0:registro7|lpm_shiftreg:LP
     Info (12134): Parameter "lpm_direction" = "LEFT"
     Info (12134): Parameter "lpm_type" = "LPM_SHIFTREG"
     Info (12134): Parameter "lpm_width" = "7"
+Info (12128): Elaborating entity "lpm_counter2" for hierarchy "lpm_counter2:inst1"
+Info (12128): Elaborating entity "lpm_counter" for hierarchy "lpm_counter2:inst1|lpm_counter:LPM_COUNTER_component"
+Info (12130): Elaborated megafunction instantiation "lpm_counter2:inst1|lpm_counter:LPM_COUNTER_component"
+Info (12133): Instantiated megafunction "lpm_counter2:inst1|lpm_counter:LPM_COUNTER_component" with the following parameter:
+    Info (12134): Parameter "lpm_direction" = "UP"
+    Info (12134): Parameter "lpm_modulus" = "9"
+    Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
+    Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
+    Info (12134): Parameter "lpm_width" = "4"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_3hj.tdf
+    Info (12023): Found entity 1: cntr_3hj
+Info (12128): Elaborating entity "cntr_3hj" for hierarchy "lpm_counter2:inst1|lpm_counter:LPM_COUNTER_component|cntr_3hj:auto_generated"
 Info (12128): Elaborating entity "lpm_shiftreg1" for hierarchy "lpm_shiftreg1:registro8bits"
 Info (12128): Elaborating entity "lpm_shiftreg" for hierarchy "lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component"
 Info (12130): Elaborated megafunction instantiation "lpm_shiftreg1:registro8bits|lpm_shiftreg:LPM_SHIFTREG_component"
@@ -508,9 +525,9 @@ Info (21057): Implemented 64 device resources after synthesis - the final resour
     Info (21060): Implemented 1 bidirectional pins
     Info (21061): Implemented 42 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4643 megabytes
-    Info: Processing ended: Thu Oct 30 16:24:57 2025
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Peak virtual memory: 4652 megabytes
+    Info: Processing ended: Fri Oct 31 12:21:10 2025
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 

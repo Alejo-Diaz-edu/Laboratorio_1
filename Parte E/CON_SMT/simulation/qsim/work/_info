@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\Laboratorio_1\Parte E\CON_SMT\simulation\qsim
+vLuces
+Z1 IWcO<]BiPO?hZ8lJ:[GYGC3
+Z2 V3UQlR>?<<AA_RBZd4S?YK3
+Z3 dC:\altera\13.0sp1\Laboratorio_1\Parte E\CON_SMT\simulation\qsim
+Z4 w1761928888
+Z5 8Luces.vo
+Z6 FLuces.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Luces.vo|
+Z9 o-work work -O0
+Z10 n@luces
+!i10b 1
+Z11 !s100 O0H1gVnI=NAd?Uc>`E>PJ2
+!s85 0
+Z12 !s108 1761928889.832000
+Z13 !s107 Luces.vo|
+!s101 -O0
+vLuces_vlg_check_tst
+!i10b 1
+Z14 !s100 a4f?[Y`DM_Voo_0AlhI502
+Z15 IK:m`[2PX=0DNR]4>D[kbN3
+Z16 VdUJBzI4WLnm2G]E0;m2eo3
+R3
+Z17 w1761928887
+Z18 8Luces.vt
+Z19 FLuces.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z20 !s108 1761928889.990000
+Z21 !s107 Luces.vt|
+Z22 !s90 -work|work|Luces.vt|
+!s101 -O0
+R9
+Z23 n@luces_vlg_check_tst
+vLuces_vlg_sample_tst
+!i10b 1
+Z24 !s100 BJCBK5RY]m3?K17TJC[BZ0
+Z25 IoD91KSm65PGkSA24@>EVl0
+Z26 V_>eJ?l1:=E38cZ]eiIkLO2
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@luces_vlg_sample_tst
+vLuces_vlg_vec_tst
+!i10b 1
+Z28 !s100 dY`FAnS8ek6ib`J>>^lZ<3
+Z29 IQJ2>gENcolcakgS?_knLm1
+Z30 VhO=a00G_P[1zz7]VAG^iN1
+R3
+R17
+R18
+R19
+Z31 L0 237
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@luces_vlg_vec_tst
